@@ -4,9 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Configurar atributos o contenido (opcional)
     nuevoDiv.id = 'menu-principal';
-    miDiv.style.width = '1519px';
-    miDiv.style.height = '71px';
-    miDiv.style.backgroundColor = 'red';
+    nuevoDiv.style.width = '300px';
+    nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.textContent = 'menu';
 
     // Agregar el nuevo div al cuerpo del documento
