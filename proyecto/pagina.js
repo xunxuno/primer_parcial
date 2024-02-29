@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Estilos del nav
     nav.id = 'nav-principal';
+    nav.style.height = '71px';
     nav.style.marginLeft = '140px';
     nav.style.marginRight = '140px';
     nav.style.backgroundColor = 'blue';
