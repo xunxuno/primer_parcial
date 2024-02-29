@@ -16,6 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Crear el elemento de navegación (nav)
     var nav = document.createElement('nav');
 
+    //Estilos del nav
+    nav.id = 'nav-principal';
+    nav.style.margin = '140px';
+    nav.style.backgroundColor = 'blue';
+
     // Crea elementos de lista (ul y li)
     var ul = document.createElement('ul');
     var li1 = document.createElement('li');
