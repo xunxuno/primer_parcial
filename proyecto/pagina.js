@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Configurar atributos o contenido (opcional)
     nuevoDiv.id = 'menu-principal';
-    nuevoDiv.style.width = '1519px';
+    nuevoDiv.style.width = '100%';
     nuevoDiv.style.height = '71px';
     nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.textContent = 'menu';
