@@ -2,10 +2,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // Crear un nuevo div
     var nuevoDiv = document.createElement('div');
 
-     // Crea el elemento de navegación (nav)
-    var nav = document.createElement('nav')
+    // Configurar atributos de Div
+    nuevoDiv.id = 'menu-principal';
+    nuevoDiv.style.width = '100%';
+    nuevoDiv.style.height = '71px';
+    nuevoDiv.style.margin = '0px';
+    nuevoDiv.style.backgroundColor = 'red';
+    nuevoDiv.textContent = 'menu';
 
-     // Crea elementos de lista (ul y li)
+    // Agregar el nuevo div al cuerpo del documento
+    document.body.appendChild(nuevoDiv);
+
+    // Crear el elemento de navegación (nav)
+    var nav = document.createElement('nav');
+
+    // Crea elementos de lista (ul y li)
     var ul = document.createElement('ul');
     var li1 = document.createElement('li');
     var li2 = document.createElement('li');
@@ -33,17 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Agrega la lista al elemento de navegación
     nav.appendChild(ul);
 
-    // Agrega el elemento de navegación al div
-    miDiv.appendChild(nav);
-
-    // Configurar atributos de Div
-    nuevoDiv.id = 'menu-principal';
-    nuevoDiv.style.width = '100%';
-    nuevoDiv.style.height = '71px';
-    nuevoDiv.style.margin = '0px';
-    nuevoDiv.style.backgroundColor = 'red';
-    nuevoDiv.textContent = 'menu';
-
-    // Agregar el nuevo div al cuerpo del documento
-    document.body.appendChild(nuevoDiv);
+    // Agrega el elemento de navegación al nuevo div
+    nuevoDiv.appendChild(nav);
 });
