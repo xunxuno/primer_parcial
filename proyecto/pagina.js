@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.textContent = 'menu';
     nuevoDiv.style.display = 'flex';
+    nuevoDiv.style.justifyContent = 'space-between';
+    nuevoDiv.style.alignItems = 'center';
 
     // Agregar el nuevo div al cuerpo del documento
     document.body.appendChild(nuevoDiv);
