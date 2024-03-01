@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.margin = '0px';
     nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.style.display = 'flex';
-   // nuevoDiv.style.justifyContent = 'space-between';
+
     //nuevoDiv.style.alignItems = 'center';
 
     // Agregar el nuevo div al cuerpo del documento
@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.marginLeft = '266px';
     nav.style.marginRight = '266px';
     nav.style.backgroundColor = 'blue';
-    nav.style.alignItems = 'center';
     nav.style.display = 'flex';
 
     // Crear un contenedor para los botones (ul)
@@ -37,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
     ul.style.width = '130px';
-    ul.style.alignItems = 'left';
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
@@ -47,13 +45,11 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.src = 'src/logo1.svg';
      img1.style.border = '0';
      img1.style.display = 'felx';
-     img1.style.alignContent = 'left';
      img1.style.paddingLeft = '0%';
      img1.style.paddingRight= '50px';
 
      //estilos boton1
      boton1.appendChild(img1);
-     boton1.style.alignItems = 'left';
      boton1.style.width = '130px';
      boton1.style.border = '0';
      //boton1.style.marginTop = '11px';
@@ -65,7 +61,6 @@ document.addEventListener('DOMContentLoaded', function() {
  
      // Crear elementos de lista (li) para los botones
      var liBoton1 = document.createElement('li');
-     liBoton1.style.alignContent = 'left';
      liBoton1.style.display = 'flex';
      liBoton1.style.marginLeft = '0%';
  
