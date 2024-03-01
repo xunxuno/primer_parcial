@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.alignContent = 'left';
      liBoton1.style.display = 'flex';
      liBoton1.style.marginLeft = '0%';
+     liBoton1.style.paddingLeft = '0%';
  
      // Agregar los botones a los elementos de lista
      liBoton1.appendChild(boton1);
