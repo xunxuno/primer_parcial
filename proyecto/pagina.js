@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
     ul.style.width = '130px';
-    ul.style.alignItems = 'left';
+    ul.style.alignItems = 'center';
     ul.style.flexDirection = 'row';
 
      // Crear el primer botón
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.display = 'felx';
      img1.style.paddingLeft = '0%';
      img1.style.paddingRight= '50px';
-     img1.style.alignContent = 'left';
+     img1.style.alignContent = 'center';
 
      //estilos boton1
      boton1.style.width = '130px';
