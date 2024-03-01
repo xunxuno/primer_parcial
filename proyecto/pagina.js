@@ -53,6 +53,8 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.alignItems = 'left';
      boton1.style.width = '130px';
      boton1.style.border = '0';
+     boton1.style.marginTop = '11px';
+     boton1.style.marginBottom = '17px';
  
 
  
