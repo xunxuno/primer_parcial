@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.display = 'flex';
      liBoton1.style.marginLeft = '0%';
      liBoton1.style.alignContent = 'left';
+     liBoton1.style.paddingLeft = '0';
      liBoton1.style.backgroundColor = 'green';
 
      //Agregar img1 a boton1
