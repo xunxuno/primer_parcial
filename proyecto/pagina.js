@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.alignContent = 'left';
 
      //estilos boton1
-     boton1.appendChild(img1);
      boton1.style.width = '130px';
      boton1.style.border = '0';
      //boton1.style.marginTop = '11px';
@@ -68,6 +67,9 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.display = 'flex';
      liBoton1.style.marginLeft = '0%';
      liBoton1.style.alignContent = 'left';
+
+     //Agregar img1 a boton1
+     boton1.appendChild(img1);
  
      // Agregar los botones a los elementos de lista
      liBoton1.appendChild(boton1);
