@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.display = 'felx';
      img1.style.alignContent = 'left';
      img1.style.paddingLeft = '0%';
+     img1.style.paddingRight= '50px';
 
      //estilos boton1
      boton1.appendChild(img1);
