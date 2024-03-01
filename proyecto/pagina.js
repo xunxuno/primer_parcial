@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
      var boton1 = document.createElement('button');
      var img1 = document.createElement('img');
      img1.src = 'src/logo1.svg';
+     img1.style.border = '0';
      boton1.appendChild(img1);
      boton1.style.alignItems = 'center';
      boton1.style.width = '130px';
