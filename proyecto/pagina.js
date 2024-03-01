@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Estilos del nav
     nav.id = 'nav-principal';
     nav.style.height = '71px';
+    nav.style.width = '100%';
     nav.style.marginTop = '0%';
     nav.style.marginLeft = '140px';
     nav.style.marginRight = '140px';
