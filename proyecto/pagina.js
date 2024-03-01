@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.marginBottom = '17px';
      boton1.style.marginLeft = '0%';
      boton1.style.display = 'flex';
-     boton1.style.padding = '0';
  
 
  
