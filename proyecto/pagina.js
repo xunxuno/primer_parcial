@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
      var boton1 = document.createElement('button');
      boton1.textContent = 'Botón 1';
      boton1.style.marginLeft = '0%';
+     boton1.style.display = 'flex';
  
      // Crear el segundo botón
      var boton2 = document.createElement('button');
