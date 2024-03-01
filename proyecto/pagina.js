@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.marginBottom = '17px';
      boton1.style.marginLeft = '0%';
      boton1.style.display = 'flex';
-     boton1.style.alignItems = 'left';
+     boton1.style.alignItems = 'center';
  
 
  
@@ -68,8 +68,8 @@ document.addEventListener('DOMContentLoaded', function() {
      var liBoton1 = document.createElement('li');
      liBoton1.style.display = 'flex';
      liBoton1.style.marginLeft = '0%';
-     liBoton1.style.alignContent = 'left';
-     liBoton1.style.paddingLeft = '0';
+     liBoton1.style.margin = '0';
+     liBoton1.style.padding = '0';
      liBoton1.style.backgroundColor = 'green';
 
      //Agregar img1 a boton1
