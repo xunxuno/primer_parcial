@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.appendChild(img1);
      boton1.style.alignItems = 'center';
      boton1.style.width = '130px';
+     boton1.style.border = '0';
  
 
  
