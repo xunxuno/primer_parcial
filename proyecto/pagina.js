@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.border = '0';
      boton1.style.marginTop = '11px';
      boton1.style.marginBottom = '17px';
+     boton1.style.marginLeft = '0%';
  
 
  
