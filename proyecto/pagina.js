@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.height = '71px';
     ul.style.width = '130px';
     ul.style.alignItems = 'center';
-    ul.style.flexDirection = 'row';
+    ul.style.justifyContent = 'flex-start'; 
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
