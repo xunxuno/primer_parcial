@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.listStyle = 'none';
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
-    ul.style.width = '179px';
+    ul.style.width = '150px';
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
