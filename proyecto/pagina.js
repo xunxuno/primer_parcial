@@ -42,23 +42,19 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.textContent = 'Botón 1';
      boton1.style.marginLeft = '0%';
      boton1.style.display = 'flex';
-     boton1.style.alignItems = 'left';
+     boton1.style.alignItems = 'center';
+     boton1.style.width = '179px';
  
-     // Crear el segundo botón
-     var boton2 = document.createElement('button');
-     boton2.textContent = 'Botón 2';
+
  
      // Crear elementos de lista (li) para los botones
      var liBoton1 = document.createElement('li');
-     var liBoton2 = document.createElement('li');
  
      // Agregar los botones a los elementos de lista
      liBoton1.appendChild(boton1);
-     liBoton2.appendChild(boton2);
  
      // Agregar los elementos de lista a la lista
      ul.appendChild(liBoton1);
-     ul.appendChild(liBoton2);
  
      // Agregar la lista al elemento de navegación
      nav.appendChild(ul);
