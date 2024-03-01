@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Crear un contenedor para los botones (ul)
     var ul = document.createElement('ul');
     ul.style.display = 'flex'; 
-    ul.style.padding = '0';
+    ul.style.padding = '100px';
+    ul.style.listStyle = 'none';
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
