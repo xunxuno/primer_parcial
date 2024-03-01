@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.marginLeft = '140px';
     nav.style.marginRight = '140px';
     nav.style.backgroundColor = 'blue';
+    nav.style.alignItems = 'center';
 
     // Crea elementos de lista (ul y li)
     var ul = document.createElement('ul');
