@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.paddingLeft = '0%';
      img1.style.paddingRight= '50px';
      img1.style.alignContent = 'left';
-     img1.style.marginTop = '11px';
+     //img1.style.marginTop = '11px';
 
      //estilos boton1
      boton1.style.width = '130px';
