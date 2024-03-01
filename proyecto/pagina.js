@@ -41,12 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
      // Crear el primer botón
      var boton1 = document.createElement('button');
      var img1 = document.createElement('img');
+
+     //estilos img1
      img1.src = 'src/logo1.svg';
      img1.style.border = '0';
      img1.style.display = 'felx';
-     img1.style.alignContent = 'center';
+     img1.style.alignContent = 'left';
+
+     //estilos boton1
      boton1.appendChild(img1);
-     boton1.style.alignItems = 'center';
+     boton1.style.alignItems = 'left';
      boton1.style.width = '130px';
      boton1.style.border = '0';
  
