@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
      // Crear el primer botón
      var boton1 = document.createElement('button');
      var img1 = document.createElement('img');
-     img1.src = 'ruta/imagen1.svg';
+     img1.src = 'src/logo1.svg';
      boton1.appendChild(img1);
      boton1.style.alignItems = 'center';
      boton1.style.width = '130px';
