@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.textContent = 'Botón 1';
      //boton1.style.display = 'flex';
      boton1.style.alignItems = 'center';
-     boton1.style.width = '179px';
+     boton1.style.width = '169px';
  
 
  
