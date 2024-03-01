@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
      // Crear el primer botón
      var boton1 = document.createElement('button');
      boton1.textContent = 'Botón 1';
+     boton1.style.marginLeft = '0%';
  
      // Crear el segundo botón
      var boton2 = document.createElement('button');
