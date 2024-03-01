@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.height = '71px';
     nav.style.width = '100%';
     nav.style.marginTop = '0%';
-    nav.style.marginLeft = '140px';
-    nav.style.marginRight = '140px';
+    nav.style.marginLeft = '266px';
+    nav.style.marginRight = '266px';
     nav.style.backgroundColor = 'blue';
     nav.style.alignItems = 'center';
     nav.style.display = 'flex';
