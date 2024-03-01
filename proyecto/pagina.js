@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.border = '0';
      img1.style.display = 'felx';
      img1.style.alignContent = 'left';
+     img1.style.marginRight = '80%';
 
      //estilos boton1
      boton1.appendChild(img1);
