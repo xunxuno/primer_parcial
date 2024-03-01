@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
     ul.style.width = '130px';
-    ul.style.alignItems = 'center';
+    ul.style.alignItems = 'left';
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.border = '0';
      img1.style.display = 'felx';
      img1.style.alignContent = 'left';
-     //img1.style.marginRight = '50%';
 
      //estilos boton1
      boton1.appendChild(img1);
