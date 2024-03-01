@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.marginRight = '266px';
     nav.style.backgroundColor = 'blue';
     nav.style.display = 'flex';
+    nav.style.alignItems = 'center';
 
     // Crear un contenedor para los botones (ul)
     var ul = document.createElement('ul');
@@ -36,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
     ul.style.width = '130px';
+    ul.style.alignItems = 'left';
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
@@ -47,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.display = 'felx';
      img1.style.paddingLeft = '0%';
      img1.style.paddingRight= '50px';
+     img1.style.alignContent = 'left';
 
      //estilos boton1
      boton1.appendChild(img1);
@@ -56,6 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.marginBottom = '17px';
      boton1.style.marginLeft = '0%';
      boton1.style.display = 'flex';
+     boton1.style.alignItems = 'left';
  
 
  
@@ -63,6 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
      var liBoton1 = document.createElement('li');
      liBoton1.style.display = 'flex';
      liBoton1.style.marginLeft = '0%';
+     liBoton1.style.alignContent = 'left';
  
      // Agregar los botones a los elementos de lista
      liBoton1.appendChild(boton1);
