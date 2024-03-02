@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.width = '100%';
     nuevoDiv.style.height = '71px';
     nuevoDiv.style.margin = '0px';
+    nuevoDiv.style.paddingTop = '10px';
     nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.style.display = 'flex';
 
@@ -21,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
     //Estilos del nav
     nav.id = 'nav-principal';
     nav.style.height = '71px';
-    nav.style.paddingTop = '10px';
     nav.style.width = '100%';
     nav.style.marginTop = '0%';
     nav.style.marginLeft = '200px';
