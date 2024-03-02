@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
      //estilos img1
      img1.src = 'src/logo1.svg';
      img1.style.border = '0';
-     img1.style.display = 'felx';
+     img1.style.display = 'flex';
      img1.style.paddingLeft = '0%';
      img1.style.paddingRight= '50px';
      img1.style.alignContent = 'center';
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.backgroundColor = 'red';
      boton1.style.marginTop = '11px';
      boton1.style.marginBottom = '17px';
-     boton1.style.marginLeft = '0%';
+     boton1.style.marginLeft = '0';
      boton1.style.display = 'flex';
      boton1.style.alignItems = 'center';
  
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
      // Crear elementos de lista (li) para los botones
      var liBoton1 = document.createElement('li');
      liBoton1.style.display = 'flex';
-     liBoton1.style.marginLeft = '0%';
+     liBoton1.style.marginLeft = '0';
      liBoton1.style.margin = '0';
      liBoton1.style.padding = '0';
      liBoton1.style.backgroundColor = 'green';
