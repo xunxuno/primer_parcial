@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.paddingLeft = '0%';
      img1.style.paddingRight= '50px';
      img1.style.alignContent = 'center';
-     img1.style.cursor = 'pointer';
 
      //estilos boton1
      boton1.style.width = '229px';
@@ -69,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.marginLeft = '0';
      boton1.style.display = 'flex';
      boton1.style.alignItems = 'center';
+     boton1.style.cursor = 'pointer';
  
 
  
