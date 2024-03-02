@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.height = '71px';
     nav.style.width = '100%';
     nav.style.marginTop = '0%';
-    nav.style.marginLeft = '200px';
+    nav.style.marginLeft = '210px';
     nav.style.marginRight = '266px';
     nav.style.backgroundColor = 'blue';
     nav.style.display = 'flex';
