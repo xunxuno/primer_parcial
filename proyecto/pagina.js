@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.cursor = 'pointer';
 
      //estilos boton1
-     boton1.style.width = '130px';
+     boton1.style.width = '229px';
      boton1.style.border = '0';
      boton1.style.paddingRight = '30px';
      boton1.style.backgroundColor = 'red';
