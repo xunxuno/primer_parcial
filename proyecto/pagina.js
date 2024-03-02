@@ -68,7 +68,6 @@ document.addEventListener('DOMContentLoaded', function() {
      // Crear elementos de lista (li) para los botones
      var liBoton1 = document.createElement('li');
      liBoton1.style.display = 'flex';
-     liBoton1.style.marginLeft = '0';
      liBoton1.style.margin = '0';
      liBoton1.style.padding = '0';
      liBoton1.style.backgroundColor = 'green';
