@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.height = '71px';
     nav.style.width = '100%';
     nav.style.marginTop = '0%';
-    nav.style.marginLeft = '224px';
+    nav.style.marginLeft = '220px';
     nav.style.marginRight = '266px';
     nav.style.backgroundColor = 'blue';
     nav.style.display = 'flex';
@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
      //estilos boton1
      boton1.style.width = '130px';
-     boton1.style.height = '70';
      boton1.style.border = '0';
      boton1.style.paddingRight = '30px';
      boton1.style.backgroundColor = 'red';
@@ -76,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.padding = '0';
      liBoton1.style.backgroundColor = 'green';
      liBoton1.style.border = 'none';
+     liBoton1.style.height = '70';
 
      //Agregar img1 a boton1
      boton1.appendChild(img1);
