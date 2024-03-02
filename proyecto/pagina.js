@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
      //estilos img1
      img1.src = 'src/logo1.svg';
-     img1.style.height = '42';
      img1.style.border = '0';
      img1.style.display = 'flex';
      img1.style.paddingLeft = '0%';
@@ -58,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
      //estilos boton1
      boton1.style.width = '130px';
+     boton1.style.height = '42';
      boton1.style.border = '0';
      boton1.style.paddingRight = '30px';
      boton1.style.backgroundColor = 'red';
