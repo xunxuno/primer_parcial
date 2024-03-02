@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.display = 'flex';
     nuevoDiv.style.top = '0';
     nuevoDiv.style.borderTop = 'none';
+    nuevoDiv.style.position = 'fixed';
 
     //nuevoDiv.style.alignItems = 'center';
 
