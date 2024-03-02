@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
     ul.style.width = '130px';
-    ul.style.alignItems = 'left';
+    ul.style.alignItems = 'center';
     ul.style.justifyContent = 'flex-start'; 
 
      // Crear el primer botón
@@ -71,6 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.margin = '0';
      liBoton1.style.padding = '0';
      liBoton1.style.backgroundColor = 'green';
+     liBoton1.style.border = 'none';
+     liBoton1.style.cursor = 'pointer';
 
      //Agregar img1 a boton1
      boton1.appendChild(img1);
