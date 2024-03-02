@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.width = '100%';
     nuevoDiv.style.height = '71px';
     nuevoDiv.style.margin = '0px';
-    nuevoDiv.style.paddingTop = '10px';
+    nuevoDiv.style.paddingTop = '0';
     nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.style.display = 'flex';
 
