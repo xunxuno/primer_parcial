@@ -50,9 +50,9 @@ document.addEventListener('DOMContentLoaded', function() {
      var boton1 = document.createElement('button');
 
      boton1.addEventListener('click', function(){
-        alert('Click');
+        alert('woooow, hiciste click!!!!');
      });
-     
+
      var img1 = document.createElement('img');
 
      //estilos img1
