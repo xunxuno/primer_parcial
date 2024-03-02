@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
     ul.style.width = '130px';
-    ul.style.alignItems = 'center';
+    ul.style.alignItems = 'left';
     ul.style.justifyContent = 'flex-start'; 
 
      // Crear el primer botón
