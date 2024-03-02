@@ -45,10 +45,11 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.justifyContent = 'flex-start'; 
     ul.style.margin = '0';
 
-    //ul2
+    // ul2
     var ul2 = document.createElement('ul');
     ul2.style.display = 'flex';
-    ul2.style.textDecoration = 'hola aña';
+    ul2.style.backgroundColor = 'yellow';
+
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
@@ -90,6 +91,10 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.backgroundColor = 'green';
      liBoton1.style.border = 'none';
      liBoton1.style.height = '70';
+
+     // segundo boton
+
+
 
      //Agregar img1 a boton1
      boton1.appendChild(img1);
