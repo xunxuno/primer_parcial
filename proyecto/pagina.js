@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.alignContent = 'center';
 
      //estilos boton1
-     boton1.style.width = '219px';
+     boton1.style.width = '200px';
      boton1.style.border = '0';
      boton1.style.paddingRight = '30px';
      boton1.style.backgroundColor = 'red';
