@@ -48,6 +48,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
+
+     boton1.addEventListener('click', function(){
+        alert('Click');
+     });
+     
      var img1 = document.createElement('img');
 
      //estilos img1
