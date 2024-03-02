@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
      //estilos img1
      img1.src = 'src/logo1.svg';
+     img1.style.height = '42';
      img1.style.border = '0';
      img1.style.display = 'flex';
      img1.style.paddingLeft = '0%';
