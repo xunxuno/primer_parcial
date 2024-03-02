@@ -34,10 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.alignItems = 'center'
     nav.style.justifyContent = 'flex-start';
 
-    // Crear un contenedor para los botones (ul)
+    // Crear un contenedor para los botones (ul1)
     var ul = document.createElement('ul');
     ul.style.display = 'flex'; 
-    //ul.style.padding = '100px';
     ul.style.listStyle = 'none';
     ul.style.backgroundColor = 'yellow';
     ul.style.height = '71px';
@@ -45,6 +44,11 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.alignItems = 'center';
     ul.style.justifyContent = 'flex-start'; 
     ul.style.margin = '0';
+
+    //ul2
+    var ul2 = document.createElement('ul');
+    ul2.style.display = 'flex';
+    ul2.style.textDecoration = 'hola aña';
 
      // Crear el primer botón
      var boton1 = document.createElement('button');
