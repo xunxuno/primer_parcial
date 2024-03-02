@@ -76,10 +76,11 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.appendChild(img1);
  
      // Agregar los botones a los elementos de lista
-     liBoton1.appendChild(boton1);
+     //liBoton1.appendChild(boton1);
  
      // Agregar los elementos de lista a la lista
-     ul.appendChild(liBoton1);
+     //ul.appendChild(liBoton1);
+     ul.appendChild(boton1);
  
      // Agregar la lista al elemento de navegación
      nav.appendChild(ul);
