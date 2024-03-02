@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.paddingTop = '0';
     nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.style.display = 'flex';
-    nuevoDiv.style.border= 'none';
-    nuevoDiv.style.position = 'fixed';
 
     //nuevoDiv.style.alignItems = 'center';
 
