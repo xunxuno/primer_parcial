@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
      img1.style.paddingLeft = '0%';
      img1.style.paddingRight= '50px';
      img1.style.alignContent = 'center';
+     img1.style.cursor = 'pointer';
 
      //estilos boton1
      boton1.style.width = '130px';
@@ -72,7 +73,6 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.padding = '0';
      liBoton1.style.backgroundColor = 'green';
      liBoton1.style.border = 'none';
-     liBoton1.style.cursor = 'pointer';
 
      //Agregar img1 a boton1
      boton1.appendChild(img1);
