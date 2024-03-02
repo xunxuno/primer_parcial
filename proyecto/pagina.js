@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Estilos del nav
     nav.id = 'nav-principal';
     nav.style.height = '71px';
-    nav.style.paddingTop = '0';
+    nav.style.paddingTop = '10px';
     nav.style.width = '100%';
     nav.style.marginTop = '0%';
     nav.style.marginLeft = '200px';
