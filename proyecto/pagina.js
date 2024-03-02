@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.style.display = 'flex';
     nuevoDiv.style.top = '0';
+    nuevoDiv.style.borderTop = 'none';
 
     //nuevoDiv.style.alignItems = 'center';
 
