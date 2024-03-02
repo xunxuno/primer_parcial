@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.marginRight = '266px';
     nav.style.backgroundColor = 'blue';
     nav.style.display = 'flex';
-    nav.style.alignItems = 'center';
+    nav.style.alignItems = 'center'
+    nav.style.justifyContent = 'flex-start';
 
     // Crear un contenedor para los botones (ul)
     var ul = document.createElement('ul');
