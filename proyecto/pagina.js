@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton2 = document.createElement('button');
 
     //estilos img1
-    img1.src = 'src/logo1.svg';
+    img1.src = 'src/logo2.PNG';
     img1.style.border = '0';
     img1.style.display = 'flex';
     img1.style.paddingLeft = '0%';
