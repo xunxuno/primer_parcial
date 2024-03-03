@@ -85,6 +85,10 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1.style.display = 'flex';
     boton1.style.alignItems = 'center';
     boton1.style.cursor = 'pointer';
+
+    //estilos boton2
+    boton2.style.width = '17px';
+    boton2.style.textDecoration = 'holaaa';
  
 
  
@@ -99,7 +103,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //li boton2
     var liBoton2 = document.createElement('li');
-    liBoton2.style.textDecoration = 'botont';
 
 
 
