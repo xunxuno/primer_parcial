@@ -100,13 +100,13 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.color = '#afafaf';
     boton2.style.fontSize = '12.4px';
     boton2.style.lineHeight = '5px';
-    boton2.style.letterSpacing = '1.3px';
+    boton2.style.letterSpacing = '1.2px';
     boton2.style.marginLeft = '0';
     boton2.style.textAlign = 'left';
     boton2.style.padding = "0";
     boton2.style.fontWeight = "bolder";
     boton2.style.border = 'none';
-    boton2.style.fontWeight = '700';
+    boton2.style.fontWeight = '750';
  
 
  
