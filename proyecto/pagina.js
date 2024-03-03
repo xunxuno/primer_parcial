@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul2.style.backgroundColor = 'yellow'; //yellow
     ul2.style.listStyle = 'none';
     ul2.style.marginLeft = '700px';
+    ul2.style.width = '300px';
 
 
     // Crear el primer botón
