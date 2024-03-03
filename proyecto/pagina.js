@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.fontSize = '15px';
     boton2.style.lineHeight = '17.25px';
     boton2.style.letterSpacing = '0.8px';
-    boton2.style.marginLeft = '10px';
+    boton2.style.marginLeft = '0';
  
 
  
