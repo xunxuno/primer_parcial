@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul2.style.listStyle = 'none';
     ul2.style.marginLeft = '560px';
     ul2.style.width = '300px';
-    ul2.style.alignItems = 'left';
+
 
 
     // Crear el primer botón
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.backgroundColor = "transparent";
     boton2.style.marginTop = '10px';
     boton2.style.color = '#afafaf';
-    boton2.style.fontSize = '15px';
+    boton2.style.fontSize = '10px';
     boton2.style.lineHeight = '17.25px';
     boton2.style.letterSpacing = '0.8px';
     boton2.style.marginLeft = '0';
@@ -120,7 +120,6 @@ document.addEventListener('DOMContentLoaded', function() {
     liBoton2.style.backgroundColor = 'green';
     liBoton2.style.margin = '0';
     liBoton2.style.padding = '0';
-    liBoton2.style.alignItems = 'left';
 
 
 
