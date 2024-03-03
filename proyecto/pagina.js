@@ -102,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.lineHeight = '17.25px';
     boton2.style.letterSpacing = '0.8px';
     boton2.style.marginLeft = '0';
+    boton2.style.textAlign = 'left';
  
 
  
