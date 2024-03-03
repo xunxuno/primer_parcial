@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul2.style.display = 'flex';
     ul2.style.backgroundColor = 'yellow'; //yellow
     ul2.style.listStyle = 'none';
-    ul2.style.marginLeft = '600px';
+    ul2.style.marginLeft = '800px';
 
 
     // Crear el primer botón
