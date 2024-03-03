@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.height = '71px';
     nav.style.width = '100%';
     nav.style.marginTop = '0%';
-    nav.style.marginLeft = '210px';
+    nav.style.marginLeft = '211px';
     nav.style.marginRight = '266px';
     //nav.style.backgroundColor = 'blue'; // blue
     nav.style.display = 'flex';
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
     img1.style.border = '0';
     img1.style.display = 'flex';
     img1.style.paddingLeft = '0%';
-    img1.style.paddingRight= '49px';
+    img1.style.paddingRight= '50px';
     img1.style.width = '180px';
     img1.style.alignContent = 'center';
     img1.style.backgroundColor = "transparent";
