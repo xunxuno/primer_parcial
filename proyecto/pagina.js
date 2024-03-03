@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.marginLeft = '0';
     boton2.style.textAlign = 'left';
     boton2.style.padding = "0";
-    boton2.style.fontWeight = "bold";
+    boton2.style.fontWeight = "bolder";
     boton2.style.border = 'none';
  
 
