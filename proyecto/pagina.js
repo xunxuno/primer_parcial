@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.color = '#afafaf';
     boton2.style.fontSize = '12px';
     boton2.style.lineHeight = '5px';
-    boton2.style.letterSpacing = '1.5px';
+    boton2.style.letterSpacing = '1.3px';
     boton2.style.marginLeft = '0';
     boton2.style.textAlign = 'left';
     boton2.style.padding = "0";
