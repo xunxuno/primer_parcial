@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.height = '71px';
     nav.style.width = '100%';
     nav.style.marginTop = '0%';
-    nav.style.marginLeft = '211px';
+    nav.style.marginLeft = '210px';
     nav.style.marginRight = '266px';
     //nav.style.backgroundColor = 'blue'; // blue
     nav.style.display = 'flex';
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //estilos boton1
     boton1.style.width = '180px';
     boton1.style.border = '0';
-    boton1.style.paddingRight = '30px';
+    boton1.style.paddingRight = '31px';
    // boton1.style.backgroundColor = 'red'; // red
     boton1.style.marginTop = '11px';
     boton1.style.marginBottom = '17px';
