@@ -79,11 +79,11 @@ document.addEventListener('DOMContentLoaded', function() {
     //estilos boton1
     boton1.style.width = '180px';
     boton1.style.border = '0';
-    boton1.style.paddingRight = '20px';
+    boton1.style.paddingRight = '30px';
    // boton1.style.backgroundColor = 'red'; // red
     boton1.style.marginTop = '11px';
     boton1.style.marginBottom = '17px';
-    boton1.style.marginLeft = '0';
+    boton1.style.marginLeft = '1px';
     boton1.style.display = 'flex';
     boton1.style.alignItems = 'center';
     boton1.style.backgroundColor = "transparent";
