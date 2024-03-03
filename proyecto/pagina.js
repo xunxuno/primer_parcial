@@ -60,6 +60,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
      var img1 = document.createElement('img');
 
+     // segundo boton
+     var boton2 = document.createElement('button');
+
      //estilos img1
      img1.src = 'src/logo1.svg';
      img1.style.border = '0';
@@ -83,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
  
 
  
-     // Crear elementos de lista (li) para los botones
+     // Crear elementos de lista (li) para boton1
      var liBoton1 = document.createElement('li');
      liBoton1.style.display = 'flex';
      liBoton1.style.margin = '0';
@@ -92,7 +95,16 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.border = 'none';
      liBoton1.style.height = '70';
 
-     // segundo boton
+     //li boton2
+     var liBoton2 = document.createElement('li');
+     liBoton2.style.textDecoration = 'botont';
+
+
+
+
+     
+
+    
 
 
 
@@ -101,9 +113,13 @@ document.addEventListener('DOMContentLoaded', function() {
  
      // Agregar los botones a los elementos de lista
      liBoton1.appendChild(boton1);
+     liBoton2.appendChild(boton2);
  
      // Agregar los elementos de lista a la lista
      ul.appendChild(liBoton1);
+     ul.appendChild(liBoton2);
+
+     
  
      // Agregar la lista al elemento de navegación
      nav.appendChild(ul);
