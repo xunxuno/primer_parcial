@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     liBoton1.style.display = 'flex';
     liBoton1.style.margin = '0';
     liBoton1.style.padding = '0';
-    liBoton1.style.backgroundColor = 'green'; // green
+    //liBoton1.style.backgroundColor = 'green'; // green
     liBoton1.style.border = 'none';
     liBoton1.style.height = '70';
 
