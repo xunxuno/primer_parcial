@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.padding = "0";
     boton2.style.fontWeight = "bolder";
     boton2.style.border = 'none';
+    boton2.style.fontWeight = '500';
  
 
  
