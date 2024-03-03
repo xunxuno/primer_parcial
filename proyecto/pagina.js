@@ -91,7 +91,6 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.width = '200px';
     boton2.style.textDecoration = 'holaaa';
     boton2.style.height = '50px';
-    boton2.style.right = '70%';
  
 
  
