@@ -86,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1.style.marginLeft = '0';
     boton1.style.display = 'flex';
     boton1.style.alignItems = 'center';
+    boton1.style.backgroundColor = "transparent";
     boton1.style.cursor = 'pointer';
 
     //estilos boton2
