@@ -98,15 +98,16 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.backgroundColor = "transparent";
     boton2.style.marginTop = '24px';
     boton2.style.color = '#afafaf';
-    boton2.style.fontSize = '12.6px';
+    boton2.style.fontSize = '15px';
     boton2.style.lineHeight = '5px';
-    boton2.style.letterSpacing = '1.2px';
+    boton2.style.letterSpacing = '0.8px';
     boton2.style.marginLeft = '0';
     boton2.style.textAlign = 'left';
     boton2.style.padding = "0";
     boton2.style.fontWeight = "bolder";
     boton2.style.border = 'none';
-    boton2.style.fontWeight = '790';
+    boton2.style.fontWeight = '700';
+    boton2.style.textTransform = 'uppercase';
  
 
  
