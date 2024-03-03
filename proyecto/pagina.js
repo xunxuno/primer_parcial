@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1.style.cursor = 'pointer';
 
     //estilos boton2
-    boton2.style.width = '240px';
+    boton2.style.width = '260px';
     boton2.textContent = 'IDIOMA DE LA PÁGINA: ESPAÑOL';
     boton2.style.alignItems = 'center';
     boton2.style.height = '50px';
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.fontSize = '15px';
     boton2.style.lineHeight = '17.25px';
     boton2.style.letterSpacing = '0.8px';
-    boton2.style.marginRight = '10px';
+    boton2.style.marginLeft = '10px';
  
 
  
