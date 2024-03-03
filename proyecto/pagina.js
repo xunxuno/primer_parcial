@@ -123,6 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //liBoton2.style.backgroundColor = 'green';
     liBoton2.style.margin = '0';
     liBoton2.style.padding = '0';
+    liBoton2.style.border = 'none';
 
 
 
