@@ -107,6 +107,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var liBoton2 = document.createElement('li');
     liBoton2.style.height = '70px';
     liBoton2.style.backgroundColor = 'green';
+    liBoton2.style.margin = '0';
+    liBoton2.style.padding = '0';
 
 
 
