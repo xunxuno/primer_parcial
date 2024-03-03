@@ -45,13 +45,15 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.justifyContent = 'flex-start'; 
     ul.style.margin = '0';
 
-    ul2
+    //ul2
     var ul2 = document.createElement('ul');
     ul2.style.display = 'flex';
     ul2.style.backgroundColor = 'yellow'; //yellow
+    ul2.style.listStyle = 'none';
+    ul2.style.marginLeft = '400px';
 
 
-     // Crear el primer botón
+    // Crear el primer botón
     var boton1 = document.createElement('button');
 
     boton1.addEventListener('click', function(){
@@ -116,12 +118,13 @@ document.addEventListener('DOMContentLoaded', function() {
  
     // Agregar los elementos de lista a la lista
     ul.appendChild(liBoton1);
-    ul.appendChild(liBoton2);
+    ul2.appendChild(liBoton2);
 
      
  
     // Agregar la lista al elemento de navegación
     nav.appendChild(ul);
+    nav.appendChild(ul2);
 
     // Agrega el elemento de navegación al nuevo div
     nuevoDiv.appendChild(nav);
