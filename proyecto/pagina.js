@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul2.style.listStyle = 'none';
     ul2.style.marginLeft = '560px';
     ul2.style.width = '300px';
+    ul2.style.alignItems = 'left';
 
 
     // Crear el primer botón
