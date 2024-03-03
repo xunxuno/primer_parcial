@@ -103,6 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.letterSpacing = '0.8px';
     boton2.style.marginLeft = '0';
     boton2.style.textAlign = 'left';
+    boton2.style.padding = "0";
  
 
  
