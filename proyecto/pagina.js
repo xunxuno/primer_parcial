@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //ul2
     var ul2 = document.createElement('ul');
     ul2.style.display = 'flex';
-    ul2.style.backgroundColor = 'yellow'; //yellow
+    //ul2.style.backgroundColor = 'yellow'; //yellow
     ul2.style.listStyle = 'none';
     ul2.style.marginLeft = '564px';
     ul2.style.width = '300px';
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //li boton2
     var liBoton2 = document.createElement('li');
     liBoton2.style.height = '70px';
-    liBoton2.style.backgroundColor = 'green';
+    //liBoton2.style.backgroundColor = 'green';
     liBoton2.style.margin = '0';
     liBoton2.style.padding = '0';
 
