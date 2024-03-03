@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul2.style.display = 'flex';
     ul2.style.backgroundColor = 'yellow'; //yellow
     ul2.style.listStyle = 'none';
-    ul2.style.marginLeft = '560px';
+    ul2.style.marginLeft = '570px';
     ul2.style.width = '300px';
 
 
