@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1.style.cursor = 'pointer';
 
     //estilos boton2
-    boton2.style.width = '250px';
+    boton2.style.width = '240px';
     boton2.style.textDecoration = 'holaaa';
     boton2.style.height = '50px';
  
