@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.marginTop = '0%';
     nav.style.marginLeft = '210px';
     nav.style.marginRight = '266px';
-    nav.style.backgroundColor = 'blue';
+    nav.style.backgroundColor = 'blue'; // blue
     nav.style.display = 'flex';
     nav.style.alignItems = 'center'
     nav.style.justifyContent = 'flex-start';
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var ul = document.createElement('ul');
     ul.style.display = 'flex'; 
     ul.style.listStyle = 'none';
-    ul.style.backgroundColor = 'yellow';
+    ul.style.backgroundColor = 'yellow'; //yellow
     ul.style.height = '71px';
     ul.style.width = '130px';
     ul.style.alignItems = 'center';
@@ -46,9 +46,9 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.margin = '0';
 
     // ul2
-    var ul2 = document.createElement('ul');
-    ul2.style.display = 'flex';
-    ul2.style.backgroundColor = 'yellow';
+   // var ul2 = document.createElement('ul');
+    //ul2.style.display = 'flex';
+    //ul2.style.backgroundColor = 'yellow'; //yellow
 
 
      // Crear el primer botón
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
      boton1.style.width = '180px';
      boton1.style.border = '0';
      boton1.style.paddingRight = '30px';
-     boton1.style.backgroundColor = 'red';
+     boton1.style.backgroundColor = 'red'; // red
      boton1.style.marginTop = '11px';
      boton1.style.marginBottom = '17px';
      boton1.style.marginLeft = '0';
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
      liBoton1.style.display = 'flex';
      liBoton1.style.margin = '0';
      liBoton1.style.padding = '0';
-     liBoton1.style.backgroundColor = 'green';
+     liBoton1.style.backgroundColor = 'green'; // green
      liBoton1.style.border = 'none';
      liBoton1.style.height = '70';
 
