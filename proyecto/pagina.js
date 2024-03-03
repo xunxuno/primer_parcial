@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.width = '17px';
     boton2.style.textDecoration = 'holaaa';
     boton2.style.height = '50px';
-    boton2.style.marginRight = '50px';
+    boton2.style.marginRight = '40px';
  
 
  
