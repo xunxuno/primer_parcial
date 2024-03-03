@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //estilos boton2
     boton2.style.width = '240px';
-    boton2.style.textDecoration = 'holaaa';
+    boton2.textContent = 'Holaaaa';
     boton2.style.height = '50px';
  
 
