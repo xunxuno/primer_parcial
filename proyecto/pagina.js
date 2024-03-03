@@ -96,9 +96,9 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.alignItems = 'center';
     boton2.style.height = '19px';
     boton2.style.backgroundColor = "transparent";
-    boton2.style.marginTop = '13px';
+    boton2.style.marginTop = '10px';
     boton2.style.color = '#afafaf';
-    boton2.style.fontSize = '10px';
+    boton2.style.fontSize = '13px';
     boton2.style.lineHeight = '17.25px';
     boton2.style.letterSpacing = '0.8px';
     boton2.style.marginLeft = '0';
