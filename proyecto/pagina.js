@@ -97,6 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.backgroundColor = "transparent";
     boton2.style.marginTop = '10px';
     boton2.style.color = '#afafaf';
+    boton2.style.fontSize = '15px';
+    boton2.style.lineHeight = '17.25px';
+    boton2.style.letterSpacing = '0.8px';
  
 
  
