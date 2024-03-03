@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
     img1.style.paddingRight= '50px';
     img1.style.width = '180px';
     img1.style.alignContent = 'center';
+    img1.style.backgroundColor = "transparent";
 
     //estilos boton1
     boton1.style.width = '180px';
