@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //li boton2
     var liBoton2 = document.createElement('li');
     liBoton2.style.height = '70px';
+    liBoton2.style.backgroundColor = 'green';
 
 
 
