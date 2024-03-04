@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
         celda.appendChild(boton);
         }
     }
-    boton_1_1.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón ';
+    'boton_1_1'.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón ';
 
     //estilos tabla
     tabla.style.backgroundColor = 'blue';
