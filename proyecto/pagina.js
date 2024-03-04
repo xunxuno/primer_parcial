@@ -164,12 +164,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Crear un botón con una imagen y un texto
         var boton = document.createElement('button');
-        boton.innerHTML = '<img src="src/bandera1.svg" style="width: 20px; height: 20px;"> Texto del botón';
+        boton.innerHTML = '<img src="src/bandera1.svg" style="width: 20px; height: 20px;"> Texto del botón ';
+
+        // Asignar un identificador único a cada botón
+        var identificador = 'boton_' + i + '_' + j;
+        boton.id = identificador;
 
         // Agregar el botón a la celda
         celda.appendChild(boton);
         }
     }
+    boton_1_1.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón ';
 
     //estilos tabla
     tabla.style.backgroundColor = 'blue';
