@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.display = 'none';
 
     var areaBoton = document.createElement('button');
-    areaBoton = backgroundColor = 'blue';
+    areaBoton.style.backgroundColor = 'blue';
 
     
 
