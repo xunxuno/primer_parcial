@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Crear un botón con una imagen y un texto
         var boton = document.createElement('button');
         boton.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón';
-        boton.style.width = '150px';
+        boton.style.width = '180px';
 
         // Agregar el botón a la celda
         celda.appendChild(boton);
