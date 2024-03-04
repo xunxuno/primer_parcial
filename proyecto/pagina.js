@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var tabla = document.createElement('table');
 
     // Crear filas y columnas
-    for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < 13; i++) {
         var fila = tabla.insertRow(i);
 
         for (var j = 0; j < 2; j++) {
