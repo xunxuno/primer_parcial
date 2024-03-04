@@ -147,8 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginLeft = '54.6%';
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
-    menuDiv.style.alignItems = 'center';
-    menuDiv.style.justifyContent = 'center';
 
     
 
