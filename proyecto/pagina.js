@@ -106,10 +106,12 @@ document.addEventListener('DOMContentLoaded', function() {
     //accion del boton 2
     boton2.addEventListener("mouseover", function() {
         boton2.style.color = '#C2C2C2';
+        menuDiv.style.display = 'block';
     });
 
     boton2.addEventListener("mouseleave", function() {
         boton2.style.color = '#afafaf';
+        menuDiv.style.display = 'none';
     });
  
 
@@ -142,6 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginTop = '57px';
     menuDiv.style.marginLeft = '54.6%';
     menuDiv.style.borderRadius = '10px';
+    menuDiv.style.display = 'none';
 
     
 
