@@ -188,6 +188,11 @@ document.addEventListener('DOMContentLoaded', function() {
     //agregar tabla al menu
     menuDiv.appendChild(tabla);
 
+    // div pirmera seccion
+    var divPrimerTexto = document.createElement('div');
+    nuevoDiv.parentNode.insertBefore(divPrimerTexto, nuevoDiv.nextSibling);
+    divPrimerTexto.style.backgroundColor = 'blue';
+
 
     
 
