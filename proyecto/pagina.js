@@ -147,6 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginLeft = '54.6%';
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
+    menuDiv.style.borderColor = 'grey';
 
     
 
@@ -181,7 +182,6 @@ document.addEventListener('DOMContentLoaded', function() {
     tabla.style.marginLeft = '15px';
     tabla.style.marginRight = '21.6%';
     tabla.style.paddingTop = '6%';
-    tabla.style.borderColor = 'grey';
 
 
 
