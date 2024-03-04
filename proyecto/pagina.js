@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.display = 'none';
     menuDiv.style.alignItems = 'center';
     menuDiv.style.justifyContent = 'center';
-    
+
     
 
 
@@ -175,6 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //estilos tabla
     tabla.style.alignSelf = 'center';
+    tabla.style.backgroundColor = 'blue';
 
 
     //agregar tabla al menu
