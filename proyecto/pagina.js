@@ -149,8 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // NAVEGACION //////////////////////////////////////
     
     // Agregar imagen de menu a boton2
-    //boton2.appendChild(btnMenu);
-    liBoton2.parentNode.insertBefore(btnMenu, liBoton2.nextSibling);
+    boton2.appendChild(btnMenu);
 
     //Agregar img1 a boton1
     boton1.appendChild(img1);
