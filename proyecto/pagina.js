@@ -148,7 +148,6 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
     menuDiv.style.border = '1px solid #E5E5E5';
-    menuDiv.style.boxShadow = '5px 5px 5px rgba(0, 0, 0, 0.5)';
 
     
 
