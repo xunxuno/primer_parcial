@@ -148,6 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
     menuDiv.style.border = '5px';
+    menuDiv.style.borderColor = 'grey';
 
     
 
