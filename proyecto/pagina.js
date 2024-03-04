@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
         menuDiv.style.display = 'block';
     });
 
-    boton2.addEventListener("mouseleave", function() {
+    divSeccion1.addEventListener("mouseleave", function() {
         boton2.style.color = '#afafaf';
         menuDiv.style.display = 'none';
     });
