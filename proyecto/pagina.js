@@ -151,72 +151,24 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
 
-    // Función para crear columnas y 13 botones personalizados por fila
-    function crearColumnasYBotones() {
-        // Obtener el div contenedor
-        var contenedor = document.getElementById('contenedor');
+    // tabla
+    // Crear una tabla
+    var tabla = document.createElement('table');
+    // Crear filas y columnas
+    for (var i = 0; i < 13; i++) {
+        var fila = tabla.insertRow(i);
+        for (var j = 0; j < 2; j++) {
+        var celda = fila.insertCell(j);
 
-        // Crear las dos columnas
-        var columna1 = document.createElement('div');
-        var columna2 = document.createElement('div');
-        columna1.className = 'columna';
-        columna2.className = 'columna';
+        // Crear un botón con una imagen y un texto
+        var boton = document.createElement('button');
+        boton.innerHTML = '<img src="src/bandera1.svg" style="width: 20px; height: 20px;"> Texto del botón';
 
-        // Agregar las columnas al contenedor
-        contenedor.appendChild(columna1);
-        contenedor.appendChild(columna2);
-
-        // Definir información para cada botón
-        var contenidoBotones = [
-            { imagen: 'imagen1.jpg', texto: 'Texto Botón 1' },
-            { imagen: 'imagen2.jpg', texto: 'Texto Botón 2' },
-            { imagen: 'imagen3.jpg', texto: 'Texto Botón 3' },
-            // ... Añadir más objetos según sea necesario
-        ];
-
-        // Crear 13 filas en cada columna
-        for (var i = 0; i < 13; i++) {
-            var fila1 = document.createElement('div');
-            var fila2 = document.createElement('div');
-            fila1.className = 'fila';
-            fila2.className = 'fila';
-
-            // Crear botones en cada fila
-            for (var j = 0; j < contenidoBotones.length; j++) {
-                var boton1 = crearBoton(contenidoBotones[j]);
-                var boton2 = crearBoton(contenidoBotones[j]);
-
-                // Agregar botones a las filas
-                fila1.appendChild(boton1);
-                fila2.appendChild(boton2);
-            }
-
-            // Agregar filas a las columnas
-            columna1.appendChild(fila1);
-            columna2.appendChild(fila2);
+        // Agregar el botón a la celda
+        celda.appendChild(boton);
         }
     }
 
-    // Función para crear un botón con imagen y texto
-    function crearBoton({ imagen, texto }) {
-        var boton = document.createElement('div');
-        boton.className = 'boton';
-
-        // Crear imagen
-        var imagenElemento = document.createElement('img');
-        imagenElemento.src = imagen;
-        imagenElemento.alt = texto;
-
-        // Crear texto
-        var textoElemento = document.createElement('span');
-        textoElemento.textContent = texto;
-
-        // Agregar imagen y texto al botón
-        boton.appendChild(imagenElemento);
-        boton.appendChild(textoElemento);
-
-        return boton;
-    }
 
 
     //estilos tabla
@@ -228,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     //agregar tabla al menu
-    menuDiv.appendChild(contenedor);
+    menuDiv.appendChild(tabla);
 
 
     
