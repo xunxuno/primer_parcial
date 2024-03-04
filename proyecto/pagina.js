@@ -114,6 +114,10 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.addEventListener("mouseover", function() {
         boton2.style.color = '#C2C2C2';
     });
+
+    boton2.addEventListener("mouseleave", function() {
+        boton2.style.color = '#afafaf';
+    });
  
 
  
