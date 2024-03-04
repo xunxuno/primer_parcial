@@ -108,6 +108,12 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.border = 'none';
     boton2.style.fontWeight = '700';
     boton2.style.textTransform = 'uppercase';
+    boton2.style.cursor = 'pointer';
+
+    //accion del boton 2
+    boton2.addEventListener("mouseover", function() {
+        boton2.style.backgroundColor = 'grey';
+    });
  
 
  
