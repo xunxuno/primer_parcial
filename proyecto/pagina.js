@@ -142,13 +142,13 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginTop = '18px';
     menuDiv.style.marginRight = '100px';
 
+    
 
+
+    // NAVEGACION //////////////////////////////////////
+    
     // Agregar imagen de menu a boton2
     boton2.appendChild(btnMenu);
-
-    // Agregar menu a boton de idiomas
-    nuevoDiv.appendChild(menuDiv);
-
 
     //Agregar img1 a boton1
     boton1.appendChild(img1);
@@ -160,8 +160,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Agregar los elementos de lista a la lista
     ul.appendChild(liBoton1);
     ul2.appendChild(liBoton2);
-
-     
  
     // Agregar la lista al elemento de navegación
     nav.appendChild(ul);
@@ -169,4 +167,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Agrega el elemento de navegación al nuevo div
     nuevoDiv.appendChild(nav);
+
+
+    // SECCION 1 ////////////////////////////////////
+
+    // div de la seccion 1
+    var divSeccion1 = document.createElement('div');
+    
+    // Agregar menu 
+    divSeccion1.appendChild(menuDiv);
+
+    // Agrega el nuevo div debajo del div existente
+    nuevoDiv.parentNode.insertBefore(divSeccion1, nuevoDiv.nextSibling);
 });
