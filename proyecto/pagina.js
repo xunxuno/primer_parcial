@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.width = '400px'
     menuDiv.style.height = '600px';
     menuDiv.style.marginTop = '18px';
-    menuDiv.style.marginRight = '600px';
+    menuDiv.style.left = '600px';
 
 
     // Agregar imagen de menu a boton2
