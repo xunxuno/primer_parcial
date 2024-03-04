@@ -175,6 +175,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         if (i=== 0 && j === 0){
             boton.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón ';
+        } else if (i === 1 && j == 0){
+            boton.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón ';
         }
     }
 
