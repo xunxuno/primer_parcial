@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.height = '71px';
     nuevoDiv.style.margin = '0px';
     nuevoDiv.style.paddingTop = '0';
-    //nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.style.display = 'flex';
     nuevoDiv.style.top = '0';
     nuevoDiv.style.borderTop = 'none';
@@ -29,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.marginTop = '0%';
     nav.style.marginLeft = '210px';
     nav.style.marginRight = '266px';
-    //nav.style.backgroundColor = 'blue'; // blue
     nav.style.display = 'flex';
     nav.style.alignItems = 'center'
     nav.style.justifyContent = 'flex-start';
@@ -38,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var ul = document.createElement('ul');
     ul.style.display = 'flex'; 
     ul.style.listStyle = 'none';
-   // ul.style.backgroundColor = 'yellow'; //yellow
     ul.style.height = '71px';
     ul.style.width = '130px';
     ul.style.alignItems = 'center';
@@ -48,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
     //ul2
     var ul2 = document.createElement('ul');
     ul2.style.display = 'flex';
-    //ul2.style.backgroundColor = 'yellow'; //yellow
     ul2.style.listStyle = 'none';
     ul2.style.marginLeft = '565px';
     ul2.style.width = '300px';
@@ -81,7 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1.style.width = '180px';
     boton1.style.border = '0';
     boton1.style.paddingRight = '30px';
-   // boton1.style.backgroundColor = 'red'; // red
     boton1.style.marginTop = '11px';
     boton1.style.marginBottom = '17px';
     boton1.style.marginLeft = '2px';
@@ -126,14 +121,12 @@ document.addEventListener('DOMContentLoaded', function() {
     liBoton1.style.display = 'flex';
     liBoton1.style.margin = '0';
     liBoton1.style.padding = '0';
-    //liBoton1.style.backgroundColor = 'green'; // green
     liBoton1.style.border = 'none';
     liBoton1.style.height = '70';
 
     //li boton2
     var liBoton2 = document.createElement('li');
     liBoton2.style.height = '70px';
-    //liBoton2.style.backgroundColor = 'green';
     liBoton2.style.margin = '0';
     liBoton2.style.padding = '0';
     liBoton2.style.border = 'none';
@@ -143,8 +136,18 @@ document.addEventListener('DOMContentLoaded', function() {
     btnMenu.src = 'src/idioma.svg';
     btnMenu.style.right = '0';
 
+    // menu de idiomas
+    var menuDiv = document.createElement('div');
+    menuDiv.style.backgroundColor = 'red';
+    menuDiv.style.width = '200px'
+    menuDiv.style.height = '600px';
+
+
     // Agregar imagen de menu a boton2
     boton2.appendChild(btnMenu);
+
+    // Agregar menu a boton de idiomas
+    boton2.appendChild(menuDiv);
 
 
     //Agregar img1 a boton1
