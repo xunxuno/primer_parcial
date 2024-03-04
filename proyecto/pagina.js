@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.textContent = 'IDIOMA DE LA PÁGINA: ESPAÑOL';
     boton2.style.alignItems = 'center';
     boton2.style.height = '19px';
-    boton2.style.backgroundColor = "transparent";
+    boton2.style.backgroundColor = "blue"; //transparent
     boton2.style.marginTop = '20px';
     boton2.style.color = '#afafaf';
     boton2.style.fontSize = '13px';
