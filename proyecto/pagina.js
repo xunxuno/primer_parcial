@@ -104,14 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.cursor = 'pointer';
 
     //accion del boton 2
-    boton2.addEventListener("mouseover", mostrarMenu);
+    areaBoton.addEventListener("mouseover", function() {
+        boton2.style.color = '#C2C2C2';
+        menuDiv.style.display = 'block';
+    });
     
-    function mostrarMenu(){
-        while (window.scrollY <= '80px' && window.scrollX <= '415px'){
-            boton2.style.color = '#C2C2C2';
-            menuDiv.style.display = 'block';
-        }
-    }
 
     boton2.addEventListener("mouseleave", function() {
         boton2.style.color = '#afafaf';
