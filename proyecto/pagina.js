@@ -109,12 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
         menuDiv.style.display = 'block';
     });
 
-    boton2.addEventListener("mousedown", function() {
-        boton2.style.color = '#C2C2C2';
-        menuDiv.style.display = 'block';
-    });
-
-    divSeccion1.addEventListener("mouseleave", function() {
+    boton2.addEventListener("mouseleave", function() {
         boton2.style.color = '#afafaf';
         menuDiv.style.display = 'none';
     });
