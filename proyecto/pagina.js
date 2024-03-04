@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Crear un botón con una imagen y un texto
         var boton = document.createElement('button');
-        boton.innerHTML = '<img src="src/eua.svg" style="width: 40px; height: 20px;"> Texto del botón';
+        boton.innerHTML = '<img src="src/eua.svg" > Texto del botón';
         boton.style.width = '188px';
         boton.style.borderRadius = '10px';
         boton.style.height = '38px';
