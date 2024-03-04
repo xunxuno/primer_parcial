@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginLeft = '54.6%';
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
-    menuDiv.style.borderColor = 'grey';
+    menuDiv.style.border = '5px';
 
     
 
