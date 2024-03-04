@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var menuDiv = document.createElement('div');
     menuDiv.style.backgroundColor = 'red';
     menuDiv.style.width = '400px'
-    menuDiv.style.height = '562px';
+    menuDiv.style.height = '563px';
     menuDiv.style.marginTop = '71px';
     menuDiv.style.marginLeft = '54.8%';
     menuDiv.style.borderRadius = '10px';
