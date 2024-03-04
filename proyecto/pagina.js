@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.fontWeight = '700';
     boton2.style.textTransform = 'uppercase';
     boton2.style.cursor = 'pointer';
-    boton2.style.backgroundColor = 'yellow';
+
 
     //accion del boton 2
     boton2.addEventListener("mouseover", function() {
@@ -132,7 +132,6 @@ document.addEventListener('DOMContentLoaded', function() {
     liBoton2.style.margin = '0';
     liBoton2.style.padding = '0';
     liBoton2.style.border = 'none';
-    liBoton2.style.backgroundColor = 'blue';
 
     // Imagen de menu de idiomas
     var btnMenu = document.createElement("img");
