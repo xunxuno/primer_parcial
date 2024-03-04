@@ -167,8 +167,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
 
         // Asignar un identificador único a cada botón
-        var identificador = 'boton_' + i + '_' + j;
-        boton.id = identificador;
+        //var identificador = 'boton_' + i + '_' + j;
+        //boton.id = identificador;
 
         // Agregar el botón a la celda
         celda.appendChild(boton);
