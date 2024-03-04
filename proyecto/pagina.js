@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Imagen de menu de idiomas
     var btnMenu = document.createElement("img");
     btnMenu.src = 'src/idioma.svg';
-    btnMenu.style.right = '0';
+    btnMenu.style.right = '100%';
 
     // menu de idiomas
     var menuDiv = document.createElement('div');
