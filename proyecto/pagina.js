@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.appendChild(btnMenu);
 
     // Agregar menu a boton de idiomas
-    boton2.appendChild(menuDiv);
+    nav.appendChild(menuDiv);
 
 
     //Agregar img1 a boton1
