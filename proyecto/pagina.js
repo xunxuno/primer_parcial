@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Agregar menu 
     divSeccion1.appendChild(menuDiv);
-    divSeccion1.appendChild(areaBoton);
+    menuDiv.appendChild(areaBoton);
 
     // Agrega el nuevo div debajo del div existente
     nuevoDiv.parentNode.insertBefore(divSeccion1, nuevoDiv.nextSibling);
