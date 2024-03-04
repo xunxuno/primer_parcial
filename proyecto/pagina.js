@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //estilos tabla
     tabla.style.backgroundColor = 'blue';
     tabla.style.marginLeft = '30px';
-    tabla.style.marginRight = '20%';
+    tabla.style.marginRight = '21%';
     tabla.style.paddingTop = '6%';
 
 
