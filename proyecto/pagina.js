@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
         celda.appendChild(boton);
         }
         if (i=== 0 && j === 0){
-            boton.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón ';
+            boton.innerHTML = '<img src="src/bandera1.svg" style="width: 20px; height: 20px;"> Texto del botón ';
         } else if (i === 1 && j == 0){
             boton.innerHTML = '<img src="src/bandera1.PNG" style="width: 20px; height: 20px;"> Texto del botón ';
         }
