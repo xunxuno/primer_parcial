@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.width = '260px';
     boton2.textContent = 'IDIOMA DE LA PÁGINA: ESPAÑOL';
     boton2.style.alignItems = 'center';
-    boton2.style.height = '19px'; //19
-    boton2.style.backgroundColor = "blue"; //transparent
+    boton2.style.height = '19px'; 
+    boton2.style.backgroundColor = "transparent"; 
     boton2.style.marginTop = '20px';
     boton2.style.color = '#afafaf';
     boton2.style.fontSize = '13px';
@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     liBoton2.style.margin = '0';
     liBoton2.style.padding = '0';
     liBoton2.style.border = 'none';
+    liBoton2.style.backgroundColor = 'blue';
 
     // Imagen de menu de idiomas
     var btnMenu = document.createElement("img");
