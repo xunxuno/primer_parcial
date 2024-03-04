@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrimerTexto.style.marginTop = '11.3%';
 
     // texto 
-    var textoNodo = document.createTextNode('¡La forma divertida, efectiva y');
+    var textoNodo = document.createTextNode('¡La forma divertida, efectiva y\n');
     var textoNodo2 = document.createTextNode(' gratis de aprender un idioma!');
     // Añadir el nodo de texto al div
     divPrimerTexto.appendChild(textoNodo);
