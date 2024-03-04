@@ -166,6 +166,8 @@ document.addEventListener('DOMContentLoaded', function() {
         boton.style.width = '188px';
         boton.style.borderRadius = '10px';
         boton.style.height = '38px';
+        boton.style.border = 'none';
+        boton.style.backgroundColor = "transparent";
 
         // Agregar el botón a la celda
         celda.appendChild(boton);
