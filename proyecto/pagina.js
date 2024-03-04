@@ -147,6 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginLeft = '54.6%';
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
+    
 
     var areaBoton = document.createElement('button');
     areaBoton.style.backgroundColor = 'blue';
@@ -155,6 +156,28 @@ document.addEventListener('DOMContentLoaded', function() {
     areaBoton.style.marginTop = '57px';
     areaBoton.style.marginLeft = '54.6%';
     areaBoton.style.borderRadius = '10px';
+
+    // tabla
+    // Crear una tabla
+    var tabla = document.createElement('table');
+
+    // Crear filas y columnas
+    for (var i = 0; i < 3; i++) {
+        var fila = tabla.insertRow(i);
+
+        for (var j = 0; j < 2; j++) {
+        var celda = fila.insertCell(j);
+
+        // Crear un botón con una imagen y un texto
+        var boton = document.createElement('button');
+        boton.innerHTML = '<img src="ruta_de_la_imagen.jpg" alt="Imagen" style="width: 20px; height: 20px;"> Texto del botón';
+
+        // Agregar el botón a la celda
+        celda.appendChild(boton);
+        }
+    }
+    menuDiv.appendChild(tabla);
+
 
     
 
