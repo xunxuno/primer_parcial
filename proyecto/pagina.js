@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //accion del boton 2
     boton2.addEventListener("mouseover", function() {
-        boton2.style.color = 'grey';
+        boton2.style.color = '#C2C2C2';
     });
  
 
