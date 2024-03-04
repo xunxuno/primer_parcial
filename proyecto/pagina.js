@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.marginTop = '23px';
     boton2.style.color = '#afafaf';
     boton2.style.fontSize = '13px';
-    boton2.style.lineHeight = '5px';
+    boton2.style.lineHeight = '6px';
     boton2.style.letterSpacing = '0.8px';
     boton2.style.marginLeft = '0';
     boton2.style.textAlign = 'left';
