@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // menu de idiomas
     var menuDiv = document.createElement('div');
     menuDiv.style.backgroundColor = 'red';
-    menuDiv.style.width = '300px'
+    menuDiv.style.width = '400px'
     menuDiv.style.height = '600px';
     menuDiv.style.marginTop = '18px';
 
