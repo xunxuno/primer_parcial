@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrimerTexto.style.backgroundColor = 'blue';
     divPrimerTexto.style.width = '500px';
     divPrimerTexto.style.height = '400px';
-    divPrimerTexto.style.marginLeft = '35%';
+    divPrimerTexto.style.marginLeft = '25%';
 
 
     
