@@ -147,7 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginLeft = '54.6%';
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
-    menuDiv.style.alignItems = 'center';
     
 
     var areaBoton = document.createElement('button');
@@ -179,6 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     //estilos tabla
+    tabla.style.alignSelf = 'center';
 
 
     //agregar tabla al menu
