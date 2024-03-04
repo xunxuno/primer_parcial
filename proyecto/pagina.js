@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.width = '415px'
     menuDiv.style.height = '563px';
     menuDiv.style.marginTop = '71px';
-    menuDiv.style.marginLeft = '54.7%';
+    menuDiv.style.marginLeft = '54.8%';
     menuDiv.style.borderRadius = '10px';
 
     
