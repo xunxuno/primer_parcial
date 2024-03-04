@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Imagen de menu de idiomas
     var btnMenu = document.createElement("img");
     btnMenu.src = 'src/idioma.svg';
-    btnMenu.style.marginLeft = '100px';
+    btnMenu.style.marginLeft = '80px';
 
     // Agregar imagen de menu a boton2
     boton2.appendChild(btnMenu);
