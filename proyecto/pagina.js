@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //li boton2
     var liBoton2 = document.createElement('li');
-    liBoton2.style.height = '50px'; //70
+    liBoton2.style.height = '40px'; //70
     liBoton2.style.margin = '0';
     liBoton2.style.padding = '0';
     liBoton2.style.border = 'none';
