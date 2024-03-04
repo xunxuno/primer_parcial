@@ -152,6 +152,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var areaBoton = document.createElement('button');
     areaBoton.style.backgroundColor = 'blue';
+    areaBoton.style.width = '415px'
+    areaBoton.style.height = '563px';
+    areaBoton.style.marginTop = '57px';
+    areaBoton.style.marginLeft = '54.6%';
+    areaBoton.style.borderRadius = '10px';
 
     
 
