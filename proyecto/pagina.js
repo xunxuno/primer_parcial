@@ -13,8 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
     nuevoDiv.style.borderTop = 'none';
     nuevoDiv.style.position = 'fixed';
 
-    //nuevoDiv.style.alignItems = 'center';
-
     // Agregar el nuevo div al cuerpo del documento
     document.body.appendChild(nuevoDiv);
 
@@ -149,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.appendChild(btnMenu);
 
     // Agregar menu a boton de idiomas
-    nav.appendChild(menuDiv);
+    nuevoDiv.appendChild(menuDiv);
 
 
     //Agregar img1 a boton1
