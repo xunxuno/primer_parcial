@@ -172,9 +172,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     //estilos tabla
-    tabla.style.alignSelf = 'center';
     tabla.style.backgroundColor = 'blue';
-    tabla.style.marginLeft = '27px';
+    tabla.style.marginLeft = '30px';
 
 
     //agregar tabla al menu
