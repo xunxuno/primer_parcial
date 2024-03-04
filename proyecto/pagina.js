@@ -181,6 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
     tabla.style.marginLeft = '15px';
     tabla.style.marginRight = '21.6%';
     tabla.style.paddingTop = '6%';
+    tabla.style.borderColor = 'grey';
 
 
 
