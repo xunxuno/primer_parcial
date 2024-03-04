@@ -176,6 +176,12 @@ document.addEventListener('DOMContentLoaded', function() {
         celda.appendChild(boton);
         }
     }
+
+    //estilos tabla
+    tabla.style.alignItems = 'center';
+
+
+    //agregar tabla al menu
     menuDiv.appendChild(tabla);
 
 
