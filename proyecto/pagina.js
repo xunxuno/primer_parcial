@@ -147,15 +147,11 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.marginLeft = '54.6%';
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
+    menuDiv.style.alignItems = 'center';
+    menuDiv.style.justifyContent = 'center';
+    
     
 
-    var areaBoton = document.createElement('button');
-    areaBoton.style.backgroundColor = 'blue';
-    areaBoton.style.width = '415px'
-    areaBoton.style.height = '563px';
-    areaBoton.style.marginTop = '57px';
-    areaBoton.style.marginLeft = '54.6%';
-    areaBoton.style.borderRadius = '10px';
 
     // tabla
     // Crear una tabla
