@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // menu de idiomas
     var menuDiv = document.createElement('div');
-    menuDiv.style.backgroundColor = 'red';
+    //menuDiv.style.backgroundColor = 'red';
     menuDiv.style.width = '415px'
     menuDiv.style.height = '576px'; //563
     menuDiv.style.marginTop = '57px';
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     //estilos tabla
-    tabla.style.backgroundColor = 'blue';
+    //tabla.style.backgroundColor = 'blue';
     tabla.style.marginLeft = '15px';
     tabla.style.marginRight = '21.6%';
     tabla.style.paddingTop = '6%';
