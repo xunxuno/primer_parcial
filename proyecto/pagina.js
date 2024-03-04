@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.addEventListener("mouseover", mostrarMenu);
     
     function mostrarMenu(){
-        if (window.scrollY <= '80px' && window.scrollX <= '415px'){
+        while (window.scrollY <= '80px' && window.scrollX <= '415px'){
             boton2.style.color = '#C2C2C2';
             menuDiv.style.display = 'block';
         }
