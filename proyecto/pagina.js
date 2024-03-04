@@ -150,6 +150,9 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.borderRadius = '10px';
     menuDiv.style.display = 'none';
 
+    var areaBoton = document.createElement('button');
+    areaBoton = backgroundColor = 'blue';
+
     
 
 
@@ -182,8 +185,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // div de la seccion 1
     var divSeccion1 = document.createElement('div');
     
+    
     // Agregar menu 
     divSeccion1.appendChild(menuDiv);
+    divSeccion1.appendChild(areaBoton);
 
     // Agrega el nuevo div debajo del div existente
     nuevoDiv.parentNode.insertBefore(divSeccion1, nuevoDiv.nextSibling);
