@@ -128,12 +128,12 @@ document.addEventListener('DOMContentLoaded', function() {
     liBoton2.style.padding = '0';
     liBoton2.style.border = 'none';
 
+    // Imagen de menu de idiomas
+    var btnMenu = document.createElement("img");
+    btnMenu.src = 'src/idioma.src';
 
-
-     
-
-    
-
+    // Agregar imagen de menu a boton2
+    boton2.appendChild(btnMenu);
 
 
     //Agregar img1 a boton1
