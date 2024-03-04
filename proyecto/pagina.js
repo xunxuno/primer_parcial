@@ -176,6 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //estilos tabla
     tabla.style.alignSelf = 'center';
     tabla.style.backgroundColor = 'blue';
+    tabla.style.margin = '20px';
 
 
     //agregar tabla al menu
