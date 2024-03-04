@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.width = '260px';
     boton2.textContent = 'IDIOMA DE LA PÁGINA: ESPAÑOL';
     boton2.style.alignItems = 'center';
-    boton2.style.height = '30px'; //19
+    boton2.style.height = '19px';
     boton2.style.backgroundColor = "transparent";
     boton2.style.marginTop = '20px';
     boton2.style.color = '#afafaf';
@@ -104,10 +104,14 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.cursor = 'pointer';
 
     //accion del boton 2
-    boton2.addEventListener("mouseover", function() {
-        boton2.style.color = '#C2C2C2';
-        menuDiv.style.display = 'block';
-    });
+    boton2.addEventListener("mouseover", mostrarMenu);
+    
+    function mostrarMenu(){
+        if (window.scrollY <= '80px' && window.scrollX <= '415px'){
+            boton2.style.color = '#C2C2C2';
+            menuDiv.style.display = 'block';
+        }
+    }
 
     boton2.addEventListener("mouseleave", function() {
         boton2.style.color = '#afafaf';
