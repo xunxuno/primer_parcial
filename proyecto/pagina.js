@@ -141,6 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuDiv.style.backgroundColor = 'red';
     menuDiv.style.width = '200px'
     menuDiv.style.height = '600px';
+    menuDiv.style.marginTop = '10px';
 
 
     // Agregar imagen de menu a boton2
