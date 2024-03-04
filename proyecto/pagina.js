@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2.style.cursor = 'pointer';
 
     //accion del boton 2
-    areaBoton.addEventListener("mouseover", function() {
+    boton2.addEventListener("mouseover", function() {
         boton2.style.color = '#C2C2C2';
         menuDiv.style.display = 'block';
     });
