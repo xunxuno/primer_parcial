@@ -537,11 +537,12 @@ document.addEventListener('DOMContentLoaded', function() {
     divcolor.style.height = '2000px';
     divcolor.style.backgroundColor = '#DDF4FF';
     divcolor.style.marginTop= '20%';
+    divcolor.style.textAlign = 'center';
 
-    var texto = document.createTextNode('aprende cuando quieras y donde quieras');
+    var textocolor = document.createTextNode('aprende cuando quieras y donde quieras');
 
     // Añadir el elemento de texto como hijo al div
-    divcolor.appendChild(texto);
+    divcolor.appendChild(textocolor);
 
 
     
