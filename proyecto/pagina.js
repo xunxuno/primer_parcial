@@ -213,11 +213,11 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.backgroundColor = 'yellow';
     texto2.style.width='415px';
     texto2.style.height='100px';
-    texto2.textContent='¡La forma divertida, efectiva y';
+    texto2.textContent='gratis de aprender un idioma!';
     texto2.style.fontSize = '31px';
     texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
-    texto2.style.top = '50%';
+    texto2.style.top = '37%';
 
 
     // Añadir el nodo de texto al div
