@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1borde.style.borderRadius = '12px';
     boton2seccion1borde.style.backgroundColor = '#CECECE';
     boton2seccion1borde.style.border = 'none';
-    funcion del boton 2
+    //funcion del boton 2
     boton2seccion1.addEventListener("mouseover", function() {
         boton2seccion1.style.backgroundColor = '#E5E5E5';
     });
