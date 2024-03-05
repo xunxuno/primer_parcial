@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //borde de bt2
     var boton2seccion1borde = document.createElement('button');
     boton2seccion1borde.appendChild(boton2seccion1);
-    boton2seccion1borde.style.width= '330px'; //331
+    boton2seccion1borde.style.width= '328px'; //331
     boton2seccion1borde.style.height = '58px';  //54
     boton2seccion1borde.style.position = 'fixed';
     boton2seccion1borde.style.right = '23.3%';
