@@ -233,6 +233,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.borderRadius = '10px';
     boton1seccion1.textContent = 'EMPIEZA AHORA';
     boton1seccion1.style.fontSize = '15px';
+    boton1seccion1.style.fontWeight = "bolder";
 
 
     // Añadir el nodo de texto al div
