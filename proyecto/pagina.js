@@ -354,6 +354,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.style.color = 'white';
     text1s2.style.fontSize = '55px';
     text1s2.style.marginTop = '10%';
+    text1s2.style.position = 'relative';
     
     
 
