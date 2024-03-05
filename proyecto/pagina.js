@@ -423,7 +423,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto2_2.style.left = '50%';
     imgtexto2_2.style.padding = '0';
     imgtexto2_2.style.float = 'right';
-    imgtexto2_2.style.marginTop = '-500px';
+    imgtexto2_2.style.marginTop = '-550px';
     imgtexto2_2.style.marginRight = '700px';
 
     divtexto2s2.appendChild(imgtexto2_2);
