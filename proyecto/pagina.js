@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto1s2.style.backgroundColor = 'red';
     divtexto1s2.style.position = 'relative';
     divtexto1s2.style.marginLeft = '17.2%';
-    divtexto1s2.style.top = '28.9%';
+    divtexto1s2.style.top = '29%';
     
     
 
