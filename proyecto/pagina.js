@@ -251,8 +251,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // botn 2 de la seccion 1
     var boton2seccion1 = document.createElement('button');
-    boton2seccion1.style.width= '331px';
-    boton2seccion1.style.height = '54px';
+    boton2seccion1.style.width= '330px'; //331
+    boton2seccion1.style.height = '52px'; //54
     boton2seccion1.style.position = 'fixed';
     boton2seccion1.style.right = '23.3%';
     boton2seccion1.style.top = '60%';
