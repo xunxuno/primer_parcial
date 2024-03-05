@@ -361,6 +361,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2.style.width = '600px';
     text2s2.style.height = '360px';
     text2s2.style.backgroundColor = 'yellow';
+    text2s2.style.marginTop = '50%';
     
     
 
