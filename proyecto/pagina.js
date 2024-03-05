@@ -575,7 +575,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var imagen2 = document.createElement('img');
     superdiv.appendChild(imagen2);
     imagen2.src = 'src/superboton.PNG';
-    imagen2.style.height = '100%';
+    imagen2.style.height = '500px';
     imagen2.style.width = 'auto';
     imagen2.style.marginLeft = '35%';
 
