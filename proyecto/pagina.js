@@ -320,6 +320,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav2.style.marginTop = '3.4%';
     nav2.style.width = '100%';
     nav2.style.height = '70px';
+    nav2.style.padding = '0';
 
 
     // segunda seccion ////////////////////
