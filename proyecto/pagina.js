@@ -193,9 +193,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var divPrimerTexto = document.createElement('div');
     nuevoDiv.parentNode.insertBefore(divPrimerTexto, nuevoDiv.nextSibling);
     divPrimerTexto.style.backgroundColor = 'yellow';
-    divPrimerTexto.style.width = '950px'; //850
+    divPrimerTexto.style.width = '950px';
     divPrimerTexto.style.height = '400px';
-    divPrimerTexto.style.marginLeft = '20.8%'; //24
+    divPrimerTexto.style.marginLeft = '20.8%';
     divPrimerTexto.style.marginTop = '11.3%';
 
     var texto1 = document.createElement('div');
@@ -297,7 +297,6 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto1.src= 'src/imgtexto1.svg';
     imgtexto1.style.width = '460px'; //400
     imgtexto1.style.height = '100%';
-    imgtexto1.style.backgroundColor = 'blue';
     imgtexto1.style.marginLeft = '0';
     imgtexto1.style.padding = '0';
     //añadir imagen
@@ -318,6 +317,15 @@ document.addEventListener('DOMContentLoaded', function() {
     //añadir segundo boton
     boton1seccion1borde.parentNode.insertBefore(boton2seccion1borde, boton1seccion1borde.nextSibling);
 
+    //nav 2
+    var nav2 = document.createElement('div');
+    divPrimerTexto.parentNode.insertBefore(divSeccion1, divPrimerTexto.nextSibling);
+    nav2.style.backgroundColor = 'red';
+    nav2.style.width = '100%';
+    nav2.style.height = '50px';
+
+
+    // segunda seccion ////////////////////
 
     
 
