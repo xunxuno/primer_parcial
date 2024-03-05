@@ -350,7 +350,8 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.style.backgroundColor = 'yelllow';
     text1s2.style.width = '200px';
     text1s2.style.height = '100px';
-    text1s2.textContent = 'holaaa';
+    text1s2.textContent = 'divertido, efectivo y gratis';
+    text1s2.style.color = 'white';
     text1s2.style.fontSize = '70px';
     
     
