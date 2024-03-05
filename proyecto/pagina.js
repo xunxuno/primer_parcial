@@ -352,7 +352,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.style.height = '300px';
     text1s2.textContent = 'divertido, efectivo y gratis';
     text1s2.style.color = 'white';
-    text1s2.style.fontSize = '60px';
+    text1s2.style.fontSize = '55px';
     
     
 
