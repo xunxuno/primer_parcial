@@ -404,6 +404,17 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2_2.style.float = 'right';  // Flotar el texto a la derecha
     text1s2_2.style.marginRight = '20px';  // Ajustar la separación entre la imagen y el texto
 
+    //otro texto
+    var text2s2_2 = document.createElement('div');
+    text1s2_2.appendChild(text2s2_2);
+    text2s2_2.style.width = '520px';
+    text2s2_2.style.height = '200';
+    text2s2_2.style.lineHeight = '20px';
+    text2s2_2.textContent = 'Gracias a la combinación de métodos de enseñanza respaldados por la ciencia y un contenido entretenido, creamos cursos que enseñan de forma eficiente a leer, escribir, entender y hablar en otros idiomas.';
+    text2s2_2.style.fontSize = '17px';
+    text2s2_2.style.color = '#777777';
+    text2s2_2.style.marginTop = '3%';
+
     // Crear la segunda imagen con formato invertido
     var imgtexto2_2 = new Image();
     imgtexto2_2.src = 'src/imagen3.svg';
