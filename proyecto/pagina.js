@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.fontSize = '30px';
     texto1.style.position = 'fixed';
     texto1.style.right = '20.4%';
-    texto1.marginLeft = '60%';
+    texto1.marginLeft = '90%';
 
 
     // Añadir el nodo de texto al div
