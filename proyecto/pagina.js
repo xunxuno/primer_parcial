@@ -429,6 +429,54 @@ document.addEventListener('DOMContentLoaded', function() {
 
     divtexto2s2.appendChild(imgtexto2_2);
 
+    // cuarta seccion /////////////////////////////
+
+    var divtexto3s2 = document.createElement('div');
+    divSeccion2.appendChild(divtexto3s2);
+
+    divtexto3s2.style.width = '1010px';
+    divtexto3s2.style.height = '370px';
+    divtexto3s2.style.position = 'relative';
+    divtexto3s2.style.marginLeft = '25%';
+    divtexto3s2.style.marginTop = '10%';
+    divtexto3s2.style.top = '29.5%';
+
+    var text1s2_3 = document.createElement('div');
+    divtexto3s2.appendChild(text1s2_3);
+    text1s2_3.style.width = '600px';
+    text1s2_3.style.height = '300px';
+    text1s2_3.textContent = 'respaldado por la ciencia';
+    text1s2_3.style.fontWeight = "bolder";
+    text1s2_3.style.color = '#58cc02';
+    text1s2_3.style.fontSize = '55px';
+    text1s2_3.style.marginTop = '10%';
+    text1s2_3.style.position = 'relative';
+    text1s2_3.style.fontFamily = 'feather, sans-serif';
+    text1s2_3.style.float = 'right';
+    text1s2_3.style.marginRight = '20px';
+
+    var text2s2_3 = document.createElement('div');
+    text1s2_3.appendChild(text2s2_3);
+    text2s2_3.style.width = '520px';
+    text2s2_3.style.height = '200';
+    text2s2_3.style.lineHeight = '20px';
+    text2s2_3.textContent = 'Gracias a la combinación de métodos de enseñanza respaldados por la ciencia y un contenido entretenido, creamos cursos que enseñan de forma eficiente a leer, escribir, entender y hablar en otros idiomas.';
+    text2s2_3.style.fontSize = '17px';
+    text2s2_3.style.color = '#777777';
+    text2s2_3.style.marginTop = '3%';
+
+    var imgtexto2_3 = new Image();
+    imgtexto2_3.src = 'src/imagen3.svg';
+    imgtexto2_3.style.width = '550px';
+    imgtexto2_3.style.height = 'auto';
+    imgtexto2_3.style.float = 'right';
+    imgtexto2_3.style.marginTop = '-50px';
+    imgtexto2_3.style.marginRight = '20px';
+
+    divtexto3s2.appendChild(imgtexto2_3);
+
+
+
         
 
 
