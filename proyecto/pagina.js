@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // botones de seccion1
     var boton1seccion1 = document.createElement('button');
-    boton1seccion1.style.width= '300px';
+    boton1seccion1.style.width= '350px';
     boton1seccion1.style.height = '50px'; 
     boton1seccion1.style.position = 'fixed';
     boton1seccion1.style.right = '25.3%';
