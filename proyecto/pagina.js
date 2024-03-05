@@ -202,11 +202,9 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.backgroundColor = 'red';
     texto1.style.width='420px';
     texto1.style.height='100px';
-    texto1.style.marginLeft = '50%';
-    texto1.style.marginBottom = '10%';
     texto1.textContent='¡La forma divertida, efectiva y';
     texto1.style.fontSize = '29.5px';
-    texto1.style.position = 'static';
+    texto1.style.position = 'fixed';
     texto1.style.right = '20.4%'; //20.4
     texto1.style.top = '33.3%'; 
     texto1.style.color = '#4B4B4B';
@@ -219,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.height='100px';
     texto2.textContent='gratis de aprender un idioma!';
     texto2.style.fontSize = '29.5px';
-    //texto2.style.position = 'fixed';
+    texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
     texto2.style.top = '39%';
     texto2.style.color = '#4B4B4B';
@@ -229,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton1seccion1 = document.createElement('button');
     boton1seccion1.style.width= '331px';
     boton1seccion1.style.height = '54px';
-    //boton1seccion1.style.position = 'fixed';
+    boton1seccion1.style.position = 'fixed';
     boton1seccion1.style.right = '23.3%';
     boton1seccion1.style.top = '50%';
     boton1seccion1.style.borderRadius = '12px';
@@ -244,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1borde.appendChild(boton1seccion1);
     boton1seccion1borde.style.width= '331px';
     boton1seccion1borde.style.height = '54px'; 
-    //boton1seccion1borde.style.position = 'fixed';
+    boton1seccion1borde.style.position = 'fixed';
     boton1seccion1borde.style.right = '23.3%';
     boton1seccion1borde.style.top = '50.8%';
     boton1seccion1borde.style.borderRadius = '12px';
@@ -263,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton2seccion1 = document.createElement('button');
     boton2seccion1.style.width= '325px'; //331
     boton2seccion1.style.height = '52px'; //54
-    //boton2seccion1.style.position = 'fixed';
+    boton2seccion1.style.position = 'fixed';
     boton2seccion1.style.right = '23.4%'; //23.5
     boton2seccion1.style.top = '61%'; //60
     boton2seccion1.style.borderRadius = '12px';
@@ -278,13 +276,13 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1borde.appendChild(boton2seccion1);
     boton2seccion1borde.style.width= '329px'; //331
     boton2seccion1borde.style.height = '58px';  //54
-    //boton2seccion1borde.style.position = 'fixed';
+    boton2seccion1borde.style.position = 'fixed';
     boton2seccion1borde.style.right = '23.3%';
     boton2seccion1borde.style.top = '60.7%'; //60.8
     boton2seccion1borde.style.borderRadius = '12px';
     boton2seccion1borde.style.backgroundColor = '#CECECE';
     boton2seccion1borde.style.border = 'none';
-    //funcion del boton 2
+    funcion del boton 2
     boton2seccion1.addEventListener("mouseover", function() {
         boton2seccion1.style.backgroundColor = '#E5E5E5';
     });
