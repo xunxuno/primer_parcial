@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton1seccion1 = document.createElement('button');
     boton1seccion1.style.width= '331px';
     boton1seccion1.style.height = '54px';
-    boton1seccion1.style.position = 'absolute';
+    boton1seccion1.style.position = 'relative';
     boton1seccion1.style.right = '23.3%';
     boton1seccion1.style.top = '40%'; //50
     boton1seccion1.style.borderRadius = '12px';
