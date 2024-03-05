@@ -192,14 +192,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // div pirmera seccion
     var divPrimerTexto = document.createElement('div');
     nuevoDiv.parentNode.insertBefore(divPrimerTexto, nuevoDiv.nextSibling);
-    divPrimerTexto.style.backgroundColor = 'blue';
+    //divPrimerTexto.style.backgroundColor = 'blue';
     divPrimerTexto.style.width = '850px';
     divPrimerTexto.style.height = '400px';
     divPrimerTexto.style.marginLeft = '24%';
     divPrimerTexto.style.marginTop = '11.3%';
 
     var texto1 = document.createElement('div');
-    texto1.style.backgroundColor = 'red';
+    //texto1.style.backgroundColor = 'red';
     texto1.style.width='420px';
     texto1.style.height='100px';
     texto1.textContent='¡La forma divertida, efectiva y';
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // texto 2
     var texto2 = document.createElement('div');
-    texto2.style.backgroundColor = 'yellow';
+    //texto2.style.backgroundColor = 'yellow';
     texto2.style.width='420px'; //415
     texto2.style.height='100px';
     texto2.textContent='gratis de aprender un idioma!';
