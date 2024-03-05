@@ -480,6 +480,54 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto3s2.appendChild(imgtexto2_3);
 
     //seccion 5 ///////////
+    // Crear el segundo div
+    var divTexto4s2 = document.createElement('div');
+    divSeccion2.appendChild(divTexto4s2);
+
+    divTexto4s2.style.width = '1010px';
+    divTexto4s2.style.height = '370px';
+    divTexto4s2.style.position = 'relative';
+    divTexto4s2.style.marginLeft = '13.5%';
+    divTexto4s2.style.marginTop = '10%';
+    divTexto4s2.style.top = '29.5%';
+
+    // Crear la imagen del segundo div
+    var imgTexto2_4 = new Image();
+    imgTexto2_4.src = 'src/imagen5.svg'; // Cambia la ruta de la imagen según sea necesario
+    imgTexto2_4.style.width = '550px';
+    imgTexto2_4.style.height = 'auto';
+    imgTexto2_4.style.float = 'left'; // Cambiada la dirección del flotante
+    imgTexto2_4.style.marginTop = '-50px';
+    imgTexto2_4.style.marginRight = '20px'; // Ajuste en el margen derecho
+
+    divTexto4s2.appendChild(imgTexto2_4);
+
+    // Crear el primer texto del segundo div
+    var text1s2_4 = document.createElement('div');
+    divTexto4s2.appendChild(text1s2_4);
+    text1s2_4.style.width = '400px';
+    text1s2_4.style.height = '300px';
+    text1s2_4.textContent = 'Texto del segundo div';
+    text1s2_4.style.fontWeight = 'bolder';
+    text1s2_4.style.color = '#58cc02';
+    text1s2_4.style.fontSize = '55px';
+    text1s2_4.style.marginTop = '10%';
+    text1s2_4.style.position = 'relative';
+    text1s2_4.style.fontFamily = 'feather, sans-serif';
+    text1s2_4.style.float = 'right'; // Cambiada la dirección del flotante
+    text1s2_4.style.marginRight = '20px'; // Ajuste en el margen derecho
+
+    // Crear el segundo texto del segundo div
+    var text2s2_4 = document.createElement('div');
+    text1s2_4.appendChild(text2s2_4);
+    text2s2_4.style.width = '520px';
+    text2s2_4.style.height = '200px';
+    text2s2_4.style.lineHeight = '20px';
+    text2s2_4.textContent = 'Texto del segundo div: Nuestras funcionalidades y desafíos son divertidos y hacen que aprender se sienta como un juego. ¡Vas a poder formar un hábito de aprendizaje sin esfuerzo! Y, por supuesto, recibirás recordatorios de nuestra adorable mascota, Duo, el búho.';
+    text2s2_4.style.fontSize = '17px';
+    text2s2_4.style.color = '#777777';
+    text2s2_4.style.marginTop = '3%';
+
 
     
 
