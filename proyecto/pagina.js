@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.border = 'none';
     //borde del boton
     var boton1seccion1borde = document.createElement('button');
-    boton1seccion1.appendChild(boton1seccion1borde);
+    boton1seccion1borde.appendChild(boton1seccion1);
     boton1seccion1borde.style.width= '331px';
     boton1seccion1borde.style.height = '54px'; 
     boton1seccion1borde.style.position = 'fixed';
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.parentNode.insertBefore(texto2, texto1.nextSibling);
 
     // añadir primer boton
-    texto2.parentNode.insertBefore(boton1seccion1, texto2.nextSibling);
+    texto2.parentNode.insertBefore(boton1seccion1borde, texto2.nextSibling);
 
 
     
