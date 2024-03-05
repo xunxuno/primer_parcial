@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var text2s2 = document.createElement('div');
     text1s2.appendChild(text2s2);
     text2s2.style.width = '600px';
-    text2s2.style.height = '360px';
+    text2s2.style.height = '100px';
     text2s2.style.backgroundColor = 'yellow';
     
     
