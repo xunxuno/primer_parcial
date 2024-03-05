@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divSeccion2.appendChild(divtexto1s2);
 
     divtexto1s2.style.width='1010px';
-    divtexto1s2.style.height='365px';
+    divtexto1s2.style.height='370px';
     divtexto1s2.style.backgroundColor = 'red';
     divtexto1s2.style.position = 'relative';
     divtexto1s2.style.marginLeft = '17.2%';
