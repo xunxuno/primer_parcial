@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1.style.right = '23.4%'; //23.5
     boton2seccion1.style.top = '61%'; //60
     boton2seccion1.style.borderRadius = '12px';
-    boton2seccion1.textContent = 'EMPIEZA AHORA';
+    boton2seccion1.textContent = 'YA TENGO UNA CUENTA';
     boton2seccion1.style.fontSize = '15px';
     boton2seccion1.style.fontWeight = "bolder";
     boton2seccion1.style.color = '#199EDD';
