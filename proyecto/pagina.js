@@ -230,14 +230,13 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.position = 'fixed';
     boton1seccion1.style.right = '23.3%';
     boton1seccion1.style.top = '50%';
-    boton1seccion1.style.borderRadius = '10px';
+    boton1seccion1.style.borderRadius = '12px';
     boton1seccion1.textContent = 'EMPIEZA AHORA';
     boton1seccion1.style.fontSize = '15px';
     boton1seccion1.style.fontWeight = "bolder";
     boton1seccion1.style.color = '#FFFFFF';
     boton1seccion1.style.backgroundColor = '#58cc02';
     boton1seccion1.style.border = 'none';
-    boton1seccion1.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
 
 
     // Añadir el nodo de texto al div
