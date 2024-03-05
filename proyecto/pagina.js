@@ -239,6 +239,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.border = 'none';
     //borde del boton
     var boton1seccion1borde = document.createElement('button');
+    boton1seccion1.parentNode.insertBefore(boton1seccion1borde,boton1seccion1.nextSibling);
     boton1seccion1borde.style.width= '331px';
     boton1seccion1borde.style.height = '54px'; 
     boton1seccion1borde.style.position = 'fixed';
