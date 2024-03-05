@@ -481,43 +481,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //seccion 5 ///////////
 
-    // Crear un nuevo div debajo con el formato inicial
-    // Crear un nuevo div debajo con el formato invertido
-    var divSeccionNuevoInvertido = document.createElement('div');
-    divtexto3s2.parentNode.insertBefore(divSeccionNuevoInvertido, divtexto3s2.nextSibling);
-    divSeccionNuevoInvertido.style.width = '100%';
-    divSeccionNuevoInvertido.style.height = '700px';
-    divSeccionNuevoInvertido.style.padding = '0';
-
-    var divtextoNuevoInvertido = document.createElement('div');
-    divSeccionNuevoInvertido.appendChild(divtextoNuevoInvertido);
-
-    divtextoNuevoInvertido.style.width = '1010px';
-    divtextoNuevoInvertido.style.height = '370px';
-    divtextoNuevoInvertido.style.position = 'relative';
-    divtextoNuevoInvertido.style.marginLeft = '25%';
-    divtextoNuevoInvertido.style.top = '29.5%';
-
-    var text1NuevoInvertido = document.createElement('div');
-    divtextoNuevoInvertido.appendChild(text1NuevoInvertido);
-    text1NuevoInvertido.style.width = '600px';
-    text1NuevoInvertido.style.height = '300px';
-    text1NuevoInvertido.textContent = 'Texto del nuevo div (invertido)';
-    text1NuevoInvertido.style.fontWeight = 'bolder';
-    text1NuevoInvertido.style.color = '#58cc02';
-    text1NuevoInvertido.style.fontSize = '55px';
-    text1NuevoInvertido.style.marginTop = '10%';
-    text1NuevoInvertido.style.position = 'relative';
-    text1NuevoInvertido.style.fontFamily = 'feather, sans-serif';
-    text1NuevoInvertido.style.float = 'left';
-    text1NuevoInvertido.style.marginRight = '20px';
-
-    var text2NuevoInvertido = document.createElement('div');
-    text1NuevoInvertido.appendChild(text2NuevoInvertido);
-    text2NuevoInvertido.style.width = '520px';
-    text2NuevoInvertido.style.height = '200px';
-    text2NuevoInvertido.style.lineHeight = '20px';
-    text2NuevoInvertido.textContent =
+    
 
 
     // NAVEGACION //////////////////////////////////////
