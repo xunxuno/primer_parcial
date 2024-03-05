@@ -334,7 +334,6 @@ document.addEventListener('DOMContentLoaded', function() {
     divSeccion2.style.width = '100%';
     divSeccion2.style.height = '700px';
     divSeccion2.style.padding = '0';
-    divSeccion2.style.marginTop = '0';
 
     var divtexto1s2 = document.createElement('div');
     divSeccion2.appendChild(divtexto1s2);
