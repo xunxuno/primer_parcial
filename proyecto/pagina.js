@@ -558,6 +558,14 @@ document.addEventListener('DOMContentLoaded', function() {
     superdiv.style.width='100%',
     superdiv.style.height='1000px';
     superdiv.style.backgroundColor = '#100F3E';
+    // Crear el elemento de imagen
+    var imagen = document.createElement('img');
+
+    // Establecer la ruta de la imagen (reemplaza 'ruta_de_la_imagen' con la ruta correcta)
+    imagen.src = 'src/imagensuper';
+
+    // Agregar la imagen como hijo al div
+    superdiv.appendChild(imagen);
 
 
 
