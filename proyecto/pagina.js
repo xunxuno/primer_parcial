@@ -199,10 +199,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var texto1 = document.createElement('div');
     texto1.style.backgroundColor = 'red';
-    texto1.style.width='400px';
+    texto1.style.width='500px';
     texto1.style.height='100px';
     texto1.textContent='¡La forma divertida, efectiva y';
-    texto1.style.fontSize = '50px';
+    texto1.style.fontSize = '30px';
 
     // Añadir el nodo de texto al div
     divPrimerTexto.appendChild(texto1);
