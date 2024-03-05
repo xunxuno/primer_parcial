@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto1.style.marginLeft = '0';
     imgtexto1.style.padding = '0';
     //añadir imagen
-    divPrimerTexto.appendChild(imgtexto1);
+    nuevoDiv.appendChild(imgtexto1);
 
 
 
