@@ -326,6 +326,12 @@ document.addEventListener('DOMContentLoaded', function() {
     nav2.style.border = '7px';
 
     // segunda seccion ////////////////////
+    var divSeccion2 = document.createElement('div');
+    nav2.parentNode.insertBefore(divSeccion2, nav2.nextSibling);
+    divSeccion2.style.backgroundColor = 'blue';
+    divSeccion2.style.width = '100%';
+    divSeccion2.style.height = '700px';
+    divSeccion2.style.padding = '0';
 
     
 
