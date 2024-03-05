@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.fontSize = '29.5px';
     texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
-    texto2.style.top = '38.5%';
+    texto2.style.top = '39%';
     texto2.style.color = '#4B4B4B';
     texto2.style.fontWeight = "bolder";
 
