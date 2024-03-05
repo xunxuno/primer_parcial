@@ -367,13 +367,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var imgtexto2 = new Image();
     imgtexto2.src= 'src/imagen2.svg';
-    imgtexto2.style.width = '500px'; //400
+    imgtexto2.style.width = '600px'; //400
     imgtexto2.style.height = 'auto';
     imgtexto2.style.right = '50%';
     imgtexto2.style.padding = '0';
     imgtexto2.style.float = 'right';
     imgtexto2.style.marginTop = '-400px';
-    imgtexto2.style.marginRight = '-50px';
+    imgtexto2.style.marginRight = '-70px';
     //añadir imagen
     divtexto1s2.appendChild(imgtexto2)
     
