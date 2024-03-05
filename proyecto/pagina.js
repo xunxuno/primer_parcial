@@ -402,7 +402,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2_2.style.position = 'relative';
     text1s2_2.style.fontFamily = 'feather, sans-serif';
     text1s2_2.style.float = 'right';  // Flotar el texto a la derecha
-    text1s2_2.style.marginRight = '20px';  // Ajustar la separación entre la imagen y el texto
+    text1s2_2.style.marginRight = '30px';  // Ajustar la separación entre la imagen y el texto
 
     //otro texto
     var text2s2_2 = document.createElement('div');
