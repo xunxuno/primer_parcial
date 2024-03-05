@@ -507,7 +507,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divTexto4s2.appendChild(text1s2_4);
     text1s2_4.style.width = '400px';
     text1s2_4.style.height = '300px';
-    text1s2_4.textContent = 'Texto del segundo div';
+    text1s2_4.textContent = 'aprendizaje personalizado';
     text1s2_4.style.fontWeight = 'bolder';
     text1s2_4.style.color = '#58cc02';
     text1s2_4.style.fontSize = '55px';
@@ -523,7 +523,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2_4.style.width = '520px';
     text2s2_4.style.height = '200px';
     text2s2_4.style.lineHeight = '20px';
-    text2s2_4.textContent = 'Texto del segundo div: Nuestras funcionalidades y desafíos son divertidos y hacen que aprender se sienta como un juego. ¡Vas a poder formar un hábito de aprendizaje sin esfuerzo! Y, por supuesto, recibirás recordatorios de nuestra adorable mascota, Duo, el búho.';
+    text2s2_4.textContent = 'Al combinar lo mejor de la inteligencia artificial y las ciencias de idiomas, las lecciones se adaptan según tu desempeño para ayudarte a aprender al nivel adecuado y a tu propio ritmo.';
     text2s2_4.style.fontSize = '17px';
     text2s2_4.style.color = '#777777';
     text2s2_4.style.marginTop = '3%';
