@@ -197,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrimerTexto.style.height = '400px';
     divPrimerTexto.style.marginLeft = '20.8%';
     divPrimerTexto.style.marginTop = '11.3%';
+    divPrimerTexto.style.position = 'flex';
 
     var texto1 = document.createElement('div');
     //texto1.style.backgroundColor = 'red';
@@ -217,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.height='100px';
     texto2.textContent='gratis de aprender un idioma!';
     texto2.style.fontSize = '29.5px';
-    texto2.style.position = 'flex';
+    texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
     texto2.style.top = '39%';
     texto2.style.color = '#4B4B4B';
