@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto2s2.appendChild(text1s2_2);
     text1s2_2.style.width = '600px';
     text1s2_2.style.height = '300px';
-    text1s2_2.textContent = 'Otro texto aquí';
+    text1s2_2.textContent = 'respaldado por la ciencia';
     text1s2_2.style.fontWeight = "bolder";
     text1s2_2.style.color = '#58cc02';
     text1s2_2.style.fontSize = '55px';
