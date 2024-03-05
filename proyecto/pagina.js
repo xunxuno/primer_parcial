@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto2s2.style.width = '1010px';
     divtexto2s2.style.height = '370px';
     divtexto2s2.style.position = 'relative';
-    divtexto2s2.style.marginLeft = '17.2%';
+    divtexto2s2.style.marginLeft = '20%';
     divtexto2s2.style.top = '29.5%';
 
     // Crear el segundo texto
