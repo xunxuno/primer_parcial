@@ -337,6 +337,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var divtexto1s2 = document.createElement('div');
     divSeccion2.appendChild(divtexto1s2);
+
+    divtexto1s2.style.width='420px';
+    divtexto1s2.style.height='100px';
+    divtexto1s2.textContent='¡La forma divertida, efectiva y';
+    divtexto1s2.style.fontSize = '29.5px';
+    divtexto1s2.style.position = 'absolute';
+    divtexto1s2.style.right = '20.4%'; //20.4
+    divtexto1s2.style.top = '33.3%'; 
+    divtexto1s2.style.color = '#4B4B4B';
+    divtexto1s2.style.fontWeight = "bolder";
     
 
 
