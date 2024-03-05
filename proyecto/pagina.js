@@ -295,6 +295,8 @@ document.addEventListener('DOMContentLoaded', function() {
     //imagen primer texto
     var imgtexto1 = new Image();
     imgtexto1.src= 'src/imgtexto1.svg';
+    imgtexto1.style.width = '330px';
+    imgtexto1.style.height = '400px';
     //añadir imagen
     divPrimerTexto.appendChild(imgtexto1);
 
