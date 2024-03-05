@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton2seccion1 = document.createElement('button');
     boton2seccion1.style.width= '325px'; //331
     boton2seccion1.style.height = '52px'; //54
-    boton2seccion1.style.position = 'fixed';
+    //boton2seccion1.style.position = 'fixed';
     boton2seccion1.style.right = '23.4%'; //23.5
     boton2seccion1.style.top = '61%'; //60
     boton2seccion1.style.borderRadius = '12px';
