@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1borde.style.height = '58px';  //54
     boton2seccion1borde.style.position = 'fixed';
     boton2seccion1borde.style.right = '23.3%';
-    boton2seccion1borde.style.top = '60.5%'; //60.8
+    boton2seccion1borde.style.top = '60.6%'; //60.8
     boton2seccion1borde.style.borderRadius = '12px';
     boton2seccion1borde.style.backgroundColor = '#CECECE';
     boton2seccion1borde.style.border = 'none';
