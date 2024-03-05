@@ -263,6 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1.style.color = '#199EDD';
     boton2seccion1.style.backgroundColor = '#FFFFFF';
     boton2seccion1.style.borderColor = '#CECECE';
+    boton2seccion1.style.border = '20px';
     //borde de bt2
     var boton2seccion1borde = document.createElement('button');
     boton2seccion1borde.appendChild(boton2seccion1);
