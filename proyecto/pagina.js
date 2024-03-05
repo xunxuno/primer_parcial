@@ -297,6 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto1.src= 'src/imgtexto1.svg';
     imgtexto1.style.width = '350px';
     imgtexto1.style.height = '500px';
+    imgtexto1.style.backgroundColor = 'blue';
     //añadir imagen
     divPrimerTexto.appendChild(imgtexto1);
 
