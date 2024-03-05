@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1borde.appendChild(boton2seccion1);
     boton2seccion1borde.style.width= '329px'; //331
     boton2seccion1borde.style.height = '58px';  //54
-    boton2seccion1borde.style.position = 'fixed';
+    //boton2seccion1borde.style.position = 'fixed';
     boton2seccion1borde.style.right = '23.3%';
     boton2seccion1borde.style.top = '60.7%'; //60.8
     boton2seccion1borde.style.borderRadius = '12px';
