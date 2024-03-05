@@ -562,7 +562,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var imagen = document.createElement('img');
 
     // Establecer la ruta de la imagen (reemplaza 'ruta_de_la_imagen' con la ruta correcta)
-    imagen.src = 'src/imagensuper';
+    imagen.src = 'src/imagensuper.svg';
 
     // Agregar la imagen como hijo al div
     superdiv.appendChild(imagen);
