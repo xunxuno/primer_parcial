@@ -528,6 +528,15 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2_4.style.color = '#777777';
     text2s2_4.style.marginTop = '3%';
 
+    // seccion cambio de color
+
+    var divcolor = document.createElement('div');
+    divTexto4s2.parentNode.insertBefore(divcolor, divTexto4s2.nextSibling);
+
+    divcolor.style.width = '100%';
+    divcolor.style.height = '1200px';
+    divcolor.style.backgroundColor = '#DDF4FF';
+
 
     
 
