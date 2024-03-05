@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto2_2.src = 'src/otra_imagen.svg';
     imgtexto2_2.style.width = '600px'; // Ajusta el valor según tus necesidades
     imgtexto2_2.style.height = 'auto';
-    imgtexto2_2.style.float = 'right';
+    imgtexto2_2.style.float = 'left';
     imgtexto2_2.style.marginTop = '-50px';
     imgtexto2_2.style.marginRight = '20px';
 
