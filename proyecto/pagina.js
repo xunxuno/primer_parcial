@@ -207,6 +207,8 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.position = 'fixed';
     texto1.style.right = '20.4%'; //20.4
     texto1.style.top = '33.3%';
+    texto1.style.color = '#4B4B4B';
+    texto1.style.fontWeight = "bolder";
 
     // texto 2
     var texto2 = document.createElement('div');
@@ -218,7 +220,8 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
     texto2.style.top = '38%';
-    texto2.style.letterSpacing = '0.5px';
+    texto2.style.color = '#4B4B4B';
+    texto2.style.fontWeight = "bolder";
 
 
     // Añadir el nodo de texto al div
