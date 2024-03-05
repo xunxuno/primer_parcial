@@ -567,19 +567,10 @@ document.addEventListener('DOMContentLoaded', function() {
     imagen.style.marginLeft = '15%';
 
     // Establecer la ruta de la imagen
-    imagen.src = 'src/imagensuper.svg';
+    imagen.src = 'src/imagensuper.png';
 
     // Agregar la imagen como hijo al div
     superdiv.appendChild(imagen);
-
-    var imagen2 = document.createElement('img');
-    superdiv.appendChild(imagen2);
-    imagen2.src = 'src/superboton.PNG';
-    imagen2.style.height = '100px';
-    imagen2.style.width = 'auto';
-    imagen2.style.marginLeft = '55%';
-    imagen2.style.marginLeft = '55%';
-    imagen2.style.top = '5%';
 
 
 
