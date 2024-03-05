@@ -537,8 +537,6 @@ document.addEventListener('DOMContentLoaded', function() {
     divcolor.style.height = '2000px';
     divcolor.style.backgroundColor = '#DDF4FF';
     divcolor.style.marginTop= '20%';
-    divcolor.style.textAlign = 'center';
-    divcolor.style.marginTop = '20%';
 
     var textocolor = document.createElement('div');
     divcolor.appendChild(textocolor);
