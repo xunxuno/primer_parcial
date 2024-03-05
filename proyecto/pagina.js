@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1borde.style.right = '23.3%';
     boton1seccion1borde.style.top = '53%';
     boton1seccion1borde.style.borderRadius = '12px';
-    boton1seccion1borde.style.backgroundColor = 'transparent';
+    boton1seccion1borde.style.backgroundColor = '#61B800';
     boton1seccion1borde.style.borderColor = '#61B800';
 
 
