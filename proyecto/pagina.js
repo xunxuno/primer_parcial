@@ -251,11 +251,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // funcion del boton1
     boton1seccion1.addEventListener("mouseover", function() {
         boton1seccion1.style.backgroundColor = '#61E002';
-        boton1seccion1borde.style.backgroundColor = '#61B800';
     });
     boton1seccion1.addEventListener("mouseleave", function() {
         boton1seccion1.style.backgroundColor = '#58cc02';
-        boton1seccion1borde.style.backgroundColor = '#61B800';
     });
 
 
@@ -284,6 +282,13 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1borde.style.borderRadius = '12px';
     boton2seccion1borde.style.backgroundColor = '#CECECE';
     boton2seccion1borde.style.border = 'none';
+    //funcion del boton 2
+    boton2seccion1.addEventListener("mouseover", function() {
+        boton2seccion1.style.backgroundColor = '#E5E5E5';
+    });
+    boton2seccion1.addEventListener("mouseleave", function() {
+        boton2seccion1.style.backgroundColor = '#FFFFFF';
+    });
 
 
 
