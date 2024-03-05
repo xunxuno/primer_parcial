@@ -470,7 +470,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Crear la imagen
     var imgtexto2_3 = new Image();
-    imgtexto2_3.src = 'src/imagen3.svg';
+    imgtexto2_3.src = 'src/imagen4.svg';
     imgtexto2_3.style.width = '550px';
     imgtexto2_3.style.height = 'auto';
     imgtexto2_3.style.float = 'right';
