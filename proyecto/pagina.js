@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.border = 'none';
     //borde del boton
     var boton1seccion1borde = document.createElement('button');
-    boton1seccion1borde.appendChild(boton1seccion1);
+    //boton1seccion1borde.appendChild(boton1seccion1);
     boton1seccion1borde.style.width= '331px';
     boton1seccion1borde.style.height = '54px'; 
     boton1seccion1borde.style.position = 'absolute';
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1.style.border = 'none';
     //borde de bt2
     var boton2seccion1borde = document.createElement('button');
-    boton2seccion1borde.appendChild(boton2seccion1);
+    //boton2seccion1borde.appendChild(boton2seccion1);
     boton2seccion1borde.style.width= '329px'; //331
     boton2seccion1borde.style.height = '58px';  //54
     boton2seccion1borde.style.position = 'absolute';
@@ -312,6 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.parentNode.insertBefore(boton1seccion1borde, texto2.nextSibling);
     //añadir segundo boton
     boton1seccion1borde.parentNode.insertBefore(boton2seccion1borde, boton1seccion1borde.nextSibling);
+    boton2seccion1borde.parentNode.insertBefore(boton2seccion1, boton2seccion1borde.nextSibling);
 
     //nav 2
     var nav2 = document.createElement('div');
