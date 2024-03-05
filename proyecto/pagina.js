@@ -379,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // tercera seccion//////////////////////////////////////////////////////////
 
-    // Crear el segundo div con el mismo formato
+    // Crear el segundo div con el formato invertido
     var divtexto2s2 = document.createElement('div');
     divSeccion2.appendChild(divtexto2s2);
 
@@ -388,6 +388,16 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto2s2.style.position = 'relative';
     divtexto2s2.style.marginLeft = '17.2%';
     divtexto2s2.style.top = '29.5%';
+    divtexto2s2.style.display = 'flex';  // Establecer el contenedor como flexible
+    divtexto2s2.style.flexDirection = 'row-reverse';  // Invertir la dirección de los elementos flexibles
+
+    // Crear la segunda imagen con formato invertido
+    var imgtexto2_2 = new Image();
+    imgtexto2_2.src = 'src/otra_imagen.svg';
+    imgtexto2_2.style.width = '600px'; // Ajusta el valor según tus necesidades
+    imgtexto2_2.style.height = 'auto';
+
+    divtexto2s2.appendChild(imgtexto2_2);
 
     // Crear el segundo texto
     var text1s2_2 = document.createElement('div');
@@ -401,29 +411,8 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2_2.style.marginTop = '10%';
     text1s2_2.style.position = 'relative';
     text1s2_2.style.fontFamily = 'feather, sans-serif';
-
-    // Crear el segundo párrafo de texto
-    var text2s2_2 = document.createElement('div');
-    text1s2_2.appendChild(text2s2_2);
-    text2s2_2.style.width = '540px';
-    text2s2_2.style.height = '200px';
-    text2s2_2.style.lineHeight = '20px';
-    text2s2_2.textContent = 'Otro texto de descripción aquí. Puedes ajustar el contenido según tus necesidades.';
-    text2s2_2.style.fontSize = '17px';
-    text2s2_2.style.color = '#777777';
-    text2s2_2.style.marginTop = '3%';
-
-    // Crear la segunda imagen
-    var imgtexto2_2 = new Image();
-    imgtexto2_2.src = 'src/otra_imagen.svg';
-    imgtexto2_2.style.width = '600px'; // Ajusta el valor según tus necesidades
-    imgtexto2_2.style.height = 'auto';
-    imgtexto2_2.style.float = 'left';
-    imgtexto2_2.style.marginTop = '-50px';
-    imgtexto2_2.style.marginRight = '20px';
-
-    divtexto2s2.appendChild(imgtexto2_2);
-    
+    text1s2_2.style.marginRight = '20px'; 
+        
 
 
     // NAVEGACION //////////////////////////////////////
