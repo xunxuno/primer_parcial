@@ -540,10 +540,15 @@ document.addEventListener('DOMContentLoaded', function() {
     divcolor.style.textAlign = 'center';
     divcolor.style.marginTop = '20%';
 
-    var textocolor = document.createTextNode('aprende cuando quieras y donde quieras');
-
-    // Añadir el elemento de texto como hijo al div
+    var textocolor = document.createElement('div');
     divcolor.appendChild(textocolor);
+    textocolor.textContent= 'aprende cuando quieras y donde quieras';
+    textocolor.style.textAlign = 'center';
+    textocolor.style.width = '300px';
+    textocolor.style.height = 'auto';
+    textocolor.style.fontSize = '30px':
+
+
 
 
     
