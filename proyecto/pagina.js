@@ -343,11 +343,10 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto1s2.style.backgroundColor = 'red';
     divtexto1s2.style.position = 'relative';
     divtexto1s2.style.marginLeft = '17.2%';
-    divtexto1s2.style.top = '29.5%';
+    //divtexto1s2.style.top = '29.5%';
 
     var text1s2 = document.createElement('div');
     divtexto1s2.appendChild(text1s2);
-    text1s2.style.backgroundColor = 'yelllow';
     text1s2.style.width = '600px';
     text1s2.style.height = '300px';
     text1s2.textContent = 'divertido, efectivo y gratis';
