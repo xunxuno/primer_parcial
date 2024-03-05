@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.height='100px';
     texto2.textContent='gratis de aprender un idioma!';
     texto2.style.fontSize = '29.5px';
-    texto2.style.position = 'fixed';
+    texto2.style.position = 'static';
     texto2.style.right = '20.4%';
     texto2.style.top = '39%';
     texto2.style.color = '#4B4B4B';
@@ -333,6 +333,8 @@ document.addEventListener('DOMContentLoaded', function() {
     divSeccion2.style.height = '700px';
     divSeccion2.style.padding = '0';
 
+    var divtexto1s2 = document.createElement('div');
+    divSeccion2.appendChild(divtexto1s2);
     
 
 
