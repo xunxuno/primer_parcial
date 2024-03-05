@@ -196,6 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrimerTexto.style.width = '850px';
     divPrimerTexto.style.height = '400px';
     divPrimerTexto.style.marginLeft = '24%';
+    divPrimerTexto.style.left = '10%';
     divPrimerTexto.style.marginTop = '11.3%';
 
     var texto1 = document.createElement('div');
