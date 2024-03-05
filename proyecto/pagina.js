@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto1.style.width = '460px'; //400
     imgtexto1.style.height = '100%';
     imgtexto1.style.backgroundColor = 'blue';
-    imgtexto1.style.left = '10%';
+    imgtexto1.style.marginLeft = '10%';
     //añadir imagen
     divPrimerTexto.appendChild(imgtexto1);
 
