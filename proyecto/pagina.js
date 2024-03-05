@@ -414,6 +414,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2_2.style.fontSize = '17px';
     text2s2_2.style.color = '#777777';
     text2s2_2.style.marginTop = '3%';
+    text2s2_2.marginLeft = '30px';
 
     // Crear la segunda imagen con formato invertido
     var imgtexto2_2 = new Image();
