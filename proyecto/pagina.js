@@ -330,7 +330,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // segunda seccion ////////////////////
     var divSeccion2 = document.createElement('div');
     nav2.parentNode.insertBefore(divSeccion2, nav2.nextSibling);
-    divSeccion2.style.backgroundColor = 'blue';
     divSeccion2.style.width = '100%';
     divSeccion2.style.height = '700px';
     divSeccion2.style.padding = '0';
@@ -340,7 +339,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     divtexto1s2.style.width='1010px';
     divtexto1s2.style.height='370px';
-    divtexto1s2.style.backgroundColor = 'red';
     divtexto1s2.style.position = 'relative';
     divtexto1s2.style.marginLeft = '17.2%';
     divtexto1s2.style.top = '29.5%';
@@ -360,7 +358,6 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.appendChild(text2s2);
     text2s2.style.width = '470px';
     text2s2.style.height = '200px';
-    text2s2.style.backgroundColor = 'yellow';
     text2s2.textContent = 'Aprender con Duolingo es divertido y los estudios demuestran que funciona. ¡En nuestras lecciones cortas ganarás puntos y habilitarás nuevas unidades al mismo tiempo que desarrollas tus habilidades de comunicación en la vida real!';
     text2s2.style.fontSize = '17px';
     text2s2.style.color = '#1CB0F6';
