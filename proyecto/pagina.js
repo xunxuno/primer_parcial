@@ -371,6 +371,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto2.style.height = '100%';
     imgtexto2.style.marginLeft = '0';
     imgtexto2.style.padding = '0';
+    imgtexto2.style.position = 'relative';
     //añadir imagen
     divtexto1s2.appendChild(imgtexto2)
     
