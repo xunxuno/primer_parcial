@@ -299,6 +299,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto1.style.height = '100%';
     imgtexto1.style.backgroundColor = 'blue';
     imgtexto1.style.marginTop = '10%';
+    imgtexto1.style.left = '20%';
     imgtexto1.style.padding = '0';
     //añadir imagen
     nuevoDiv.appendChild(imgtexto1);
