@@ -321,6 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var nav2 = document.createElement('div');
     divPrimerTexto.parentNode.insertBefore(divSeccion1, divPrimerTexto.nextSibling);
     nav2.style.backgroundColor = 'red';
+    nav2.style.top = '50%';
     nav2.style.width = '100%';
     nav2.style.height = '50px';
 
