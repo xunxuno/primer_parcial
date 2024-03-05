@@ -227,6 +227,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton1seccion1 = document.createElement('button');
     boton1seccion1.style.width= '300px';
     boton1seccion1.style.height = '50px'; 
+    boton1seccion1.style.position = 'fixed';
+    boton1seccion1.style.right = '30%';
+    boton1seccion1.style.top = '50%';
 
 
     // Añadir el nodo de texto al div
