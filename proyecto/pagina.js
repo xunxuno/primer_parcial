@@ -234,6 +234,9 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.textContent = 'EMPIEZA AHORA';
     boton1seccion1.style.fontSize = '15px';
     boton1seccion1.style.fontWeight = "bolder";
+    boton1seccion1.style.color = '#FFFFFF';
+    boton1seccion1.style.backgroundColor = '58cc02';
+    boton1seccion1.style.border = 'none';
 
 
     // Añadir el nodo de texto al div
