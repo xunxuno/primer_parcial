@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // texto 2
     var texto2 = document.createElement('div');
     texto2.style.backgroundColor = 'yellow';
-    texto2.style.width='418px';
+    texto2.style.width='419px'; //415
     texto2.style.height='100px';
     texto2.textContent='gratis de aprender un idioma!';
     texto2.style.fontSize = '31px';
