@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto2.style.right = '50%';
     imgtexto2.style.padding = '0';
     //añadir imagen
-    texto2s2.appendChild(imgtexto2)
+    divtexto1s2.appendChild(imgtexto2)
     
 
 
