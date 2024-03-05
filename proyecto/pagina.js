@@ -237,6 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.color = '#FFFFFF';
     boton1seccion1.style.backgroundColor = '#58cc02';
     boton1seccion1.style.border = 'none';
+    boton1seccion1.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
 
 
     // Añadir el nodo de texto al div
