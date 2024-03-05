@@ -572,6 +572,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Agregar la imagen como hijo al div
     superdiv.appendChild(imagen);
 
+    var imagen2 = document.createElement('img');
+    superdiv.appendChild(imagen2);
+    imagen2.src = 'src/superboton.PNG';
+    imagen2.style.height = '570px';
+    imagen2.style.width = 'auto';
+    imagen2.style.marginLeft = '35%';
+
 
 
 
