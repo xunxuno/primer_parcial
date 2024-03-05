@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1.style.width= '325px'; //331
     boton2seccion1.style.height = '52px'; //54
     boton2seccion1.style.position = 'fixed';
-    boton2seccion1.style.right = '23.5%'; //23.3
+    boton2seccion1.style.right = '23.4%'; //23.5
     boton2seccion1.style.top = '61%'; //60
     boton2seccion1.style.borderRadius = '12px';
     boton2seccion1.textContent = 'EMPIEZA AHORA';
