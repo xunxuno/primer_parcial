@@ -544,10 +544,9 @@ document.addEventListener('DOMContentLoaded', function() {
     divcolor.appendChild(textocolor);
     textocolor.textContent= 'aprende cuando quieras y donde quieras';
     textocolor.style.textAlign = 'center';
-    textocolor.style.width = '300px';
+    textocolor.style.width = '500px';
     textocolor.style.height = 'auto';
-    textocolor.style.fontSize = '30px';
-    textocolor.style.marginTop= '20%';
+    textocolor.style.fontSize = '40px';
 
 
 
