@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1borde.style.height = '54px'; 
     boton1seccion1borde.style.position = 'fixed';
     boton1seccion1borde.style.right = '23.3%';
-    boton1seccion1borde.style.top = '51%';
+    boton1seccion1borde.style.top = '50.5%';
     boton1seccion1borde.style.borderRadius = '12px';
     boton1seccion1borde.style.backgroundColor = '#61B800';
     boton1seccion1borde.style.border = 'none';
