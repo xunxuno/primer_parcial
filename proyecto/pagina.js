@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.style.fontFamily = 'feather, sans-serif';
 
     var text2s2 = document.createElement('div');
-    text1s2.parentElement.insertBefore(text1s2, text2s2.nextElementSibling);
+    text1s2.appendChild(text2s2);
     text2s2.style.width = '600px';
     text2s2.style.height = '360px';
     text2s2.style.backgroundColor = 'yellow';
