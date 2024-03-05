@@ -351,10 +351,11 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.style.width = '600px';
     text1s2.style.height = '300px';
     text1s2.textContent = 'divertido, efectivo y gratis';
-    text1s2.style.color = 'white';
+    text1s2.style.color = '#58cc02';
     text1s2.style.fontSize = '55px';
     text1s2.style.marginTop = '10%';
     text1s2.style.position = 'relative';
+    text1s2.style.fontFamily = 'feather, sans-serif';
     
     
 
