@@ -548,6 +548,7 @@ document.addEventListener('DOMContentLoaded', function() {
     textocolor.style.fontWeight = "bolder";
     textocolor.style.color = "#042C60";
     textocolor.style.top = '-20%';
+    textocolor.style.padding = '0';
 
 
 
