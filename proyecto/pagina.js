@@ -547,6 +547,7 @@ document.addEventListener('DOMContentLoaded', function() {
     textocolor.style.width = '300px';
     textocolor.style.height = 'auto';
     textocolor.style.fontSize = '30px';
+    textocolor.style.marginTop= '20%';
 
 
 
