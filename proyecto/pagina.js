@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2.style.marginTop = '3%';
 
     var imgtexto2 = new Image();
-    imgtexto1.src= 'src/imgtexto1.svg';
+    imgtexto1.src= 'src/imagen2.svg';
     imgtexto1.style.width = '460px'; //400
     imgtexto1.style.height = '100%';
     imgtexto1.style.marginLeft = '0';
