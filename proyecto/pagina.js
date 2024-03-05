@@ -357,8 +357,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var text2s2 = document.createElement('div');
     text1s2.appendChild(text2s2);
-    text2s2.style.width = '600px';
-    text2s2.style.height = 'auto';
+    text2s2.style.width = '540px';
+    text2s2.style.height = '200';
     text2s2.style.lineHeight = '20px';
     text2s2.textContent = 'Aprender con Duolingo es divertido y los estudios demuestran que funciona. ¡En nuestras lecciones cortas ganarás puntos y habilitarás nuevas unidades al mismo tiempo que desarrollas tus habilidades de comunicación en la vida real!';
     text2s2.style.fontSize = '17px';
@@ -367,8 +367,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var imgtexto2 = new Image();
     imgtexto2.src= 'src/imagen2.svg';
-    imgtexto2.style.width = '460px'; //400
-    imgtexto2.style.height = '100%';
+    imgtexto2.style.width = '500px'; //400
+    imgtexto2.style.height = 'auto';
     imgtexto2.style.right = '50%';
     imgtexto2.style.padding = '0';
     imgtexto2.style.float = 'right';
