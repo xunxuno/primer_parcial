@@ -538,6 +538,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divcolor.style.backgroundColor = '#DDF4FF';
     divcolor.style.marginTop= '20%';
     divcolor.style.textAlign = 'center';
+    divcolor.style.marginTop = '20%';
 
     var textocolor = document.createTextNode('aprende cuando quieras y donde quieras');
 
