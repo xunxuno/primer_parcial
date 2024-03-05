@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto1s2.style.width='420px';
     divtexto1s2.style.height='100px';
     divtexto1s2.style.backgroundColor = 'red';
-    divtexto1s2.style.right = '20%';
+    divtexto1s2.style.marginRight = '20%';
     
     
 
