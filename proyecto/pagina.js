@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav2.style.backgroundColor = 'red';
     nav2.style.marginTop = '3.5%';
     nav2.style.width = '100%';
-    nav2.style.height = '81px';
+    nav2.style.height = '82px';
     nav2.style.padding = '0';
 
 
