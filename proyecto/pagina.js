@@ -199,7 +199,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // texto 
     var textoNodo = document.createTextNode('¡La forma divertida, efectiva y\n');
-    textoNodo.style.marginLeft= '70%';
     var textoNodo2 = document.createTextNode(' gratis de aprender un idioma!');
     // Añadir el nodo de texto al div
     divPrimerTexto.appendChild(textoNodo);
