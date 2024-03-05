@@ -364,6 +364,15 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2.style.fontSize = '17px';
     text2s2.style.color = '#777777';
     text2s2.style.marginTop = '3%';
+
+    var imgtexto2 = new Image();
+    imgtexto1.src= 'src/imgtexto1.svg';
+    imgtexto1.style.width = '460px'; //400
+    imgtexto1.style.height = '100%';
+    imgtexto1.style.marginLeft = '0';
+    imgtexto1.style.padding = '0';
+    //añadir imagen
+    divtexto1s2.appendChild(imgtexto1)
     
 
 
