@@ -195,7 +195,6 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrimerTexto.style.backgroundColor = 'yellow';
     divPrimerTexto.style.width = '950px'; //850
     divPrimerTexto.style.height = '400px';
-    divPrimerTexto.style.left = '30%';
     divPrimerTexto.style.marginTop = '11.3%';
 
     var texto1 = document.createElement('div');
