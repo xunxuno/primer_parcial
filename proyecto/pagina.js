@@ -534,7 +534,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divTexto4s2.parentNode.insertBefore(divcolor, divTexto4s2.nextSibling);
 
     divcolor.style.width = '100%';
-    divcolor.style.height = '1200px';
+    divcolor.style.height = '2000px';
     divcolor.style.backgroundColor = '#DDF4FF';
     divcolor.style.marginTop= '20%';
 
