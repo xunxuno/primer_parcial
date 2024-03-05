@@ -438,7 +438,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto3s2.style.width = '1010px';
     divtexto3s2.style.height = '370px';
     divtexto3s2.style.position = 'relative';
-    divtexto3s2.style.marginLeft = '10%';
+    divtexto3s2.style.marginLeft = '15%';
     divtexto3s2.style.marginTop = '10%';
     divtexto3s2.style.top = '29.5%';
 
