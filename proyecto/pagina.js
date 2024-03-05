@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto1.style.marginRight = '20%';
     imgtexto1.style.padding = '0';
     //añadir imagen
-    nuevoDiv.appendChild(imgtexto1);
+    divPrimerTexto.parentNode.insertBefore(imgtexto1, divPrimerTexto.nextElementSibling);
 
 
 
