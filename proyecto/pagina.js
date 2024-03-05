@@ -536,6 +536,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divcolor.style.width = '100%';
     divcolor.style.height = '1200px';
     divcolor.style.backgroundColor = '#DDF4FF';
+    divcolor.style.marginTop= '10%';
 
 
     
