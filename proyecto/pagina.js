@@ -237,6 +237,16 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.color = '#FFFFFF';
     boton1seccion1.style.backgroundColor = '#58cc02';
     boton1seccion1.style.border = 'none';
+    //borde del boton
+    var boton1seccion1borde = document.createElement('button');
+    boton1seccion1borde.style.width= '331px';
+    boton1seccion1borde.style.height = '54px'; 
+    boton1seccion1borde.style.position = 'fixed';
+    boton1seccion1borde.style.right = '23.3%';
+    boton1seccion1borde.style.top = '53%';
+    boton1seccion1borde.style.borderRadius = '12px';
+    boton1seccion1borde.style.backgroundColor = 'transparent';
+    boton1seccion1.style.borderColor = '#61B800';
 
 
     // Añadir el nodo de texto al div
