@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.width='420px'; //415
     texto2.style.height='100px';
     texto2.textContent='gratis de aprender un idioma!';
-    texto2.style.fontSize = '31px';
+    texto2.style.fontSize = '29.5px';
     texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
     texto2.style.top = '38%';
