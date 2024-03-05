@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Configurar atributos de Div
     nuevoDiv.id = 'menu-principal';
-    nuevoDiv.style.backgroundColor = 'red';
     nuevoDiv.style.width = '100%';
     nuevoDiv.style.height = '71px';
     nuevoDiv.style.margin = '0px';
@@ -193,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // div pirmera seccion
     var divPrimerTexto = document.createElement('div');
     nuevoDiv.parentNode.insertBefore(divPrimerTexto, nuevoDiv.nextSibling);
-    divPrimerTexto.style.backgroundColor = 'blue';
+    divPrimerTexto.style.backgroundColor = 'yellow';
     divPrimerTexto.style.width = '850px';
     divPrimerTexto.style.height = '400px';
     divPrimerTexto.style.marginLeft = '24%';
