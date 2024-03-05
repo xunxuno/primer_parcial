@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.top = '50%';
     boton1seccion1.style.borderRadius = '10px';
     boton1seccion1.textContent = 'EMPIEZA AHORA';
-    boton1seccion1.style.fontSize = '20px';
+    boton1seccion1.style.fontSize = '10px';
 
 
     // Añadir el nodo de texto al div
