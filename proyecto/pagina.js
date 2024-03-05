@@ -323,6 +323,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav2.style.padding = '0';
     nav2.style.paddingLeft = '0';
     nav2.style.paddingRight = '0';
+    nav2.style.borderColor = '#CECECE';
 
     // segunda seccion ////////////////////
 
