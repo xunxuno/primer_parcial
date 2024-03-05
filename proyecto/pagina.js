@@ -550,6 +550,16 @@ document.addEventListener('DOMContentLoaded', function() {
     textocolor.style.top = '-20%';
     textocolor.style.padding = '0';
 
+    //siguiente seccion
+
+    var superdiv = document.createElement('div');
+    divcolor.parentNode.insertBefore(superdiv, divcolor.nextSibling);
+
+    superdiv.style.width='100%',
+    superdiv.style.height='1000px';
+    superdiv.style.backgroundColor = '#100F3E';
+
+
 
 
 
