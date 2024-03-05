@@ -445,7 +445,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Crear el primer texto
     var text1s2_3 = document.createElement('div');
     divtexto3s2.appendChild(text1s2_3);
-    text1s2_3.style.width = '600px';
+    text1s2_3.style.width = '400px';
     text1s2_3.style.height = '300px';
     text1s2_3.textContent = 'mantén tu motivación';
     text1s2_3.style.fontWeight = 'bolder';
