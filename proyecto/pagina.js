@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.style.width = '200px';
     text1s2.style.height = '100px';
     text1s2.textContent = 'holaaa';
-    text1s2.style.fontSize = '50px';
+    text1s2.style.fontSize = '70px';
     
     
 
