@@ -205,8 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.textContent='¡La forma divertida, efectiva y';
     texto1.style.fontSize = '30px';
     texto1.style.position = 'fixed';
-    texto1.style.right = '20.4%';
-    texto1.marginLeft = '90%';
+    texto1.style.right = '40%'; //20.4
 
 
     // Añadir el nodo de texto al div
