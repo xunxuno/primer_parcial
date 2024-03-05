@@ -578,6 +578,8 @@ document.addEventListener('DOMContentLoaded', function() {
     imagen2.style.height = '100px';
     imagen2.style.width = 'auto';
     imagen2.style.marginLeft = '55%';
+    imagen2.style.marginLeft = '55%';
+    imagen2.style.top = '5%';
 
 
 
