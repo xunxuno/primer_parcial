@@ -447,7 +447,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto3s2.appendChild(text1s2_3);
     text1s2_3.style.width = '600px';
     text1s2_3.style.height = '300px';
-    text1s2_3.textContent = 'respaldado por la ciencia';
+    text1s2_3.textContent = 'mantén tu motivación';
     text1s2_3.style.fontWeight = 'bolder';
     text1s2_3.style.color = '#58cc02';
     text1s2_3.style.fontSize = '55px';
@@ -463,7 +463,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2_3.style.width = '520px';
     text2s2_3.style.height = '200';
     text2s2_3.style.lineHeight = '20px';
-    text2s2_3.textContent = 'Gracias a la combinación de métodos de enseñanza respaldados por la ciencia y un contenido entretenido, creamos cursos que enseñan de forma eficiente a leer, escribir, entender y hablar en otros idiomas.';
+    text2s2_3.textContent = 'Nuestras funcionalidades y desafíos son divertidos y hacen que aprender se sienta como un juego. ¡Vas a poder formar un hábito de aprendizaje sin esfuerzo! Y, por supuesto, recibirás recordatorios de nuestra adorable mascota, Duo, el búho.';
     text2s2_3.style.fontSize = '17px';
     text2s2_3.style.color = '#777777';
     text2s2_3.style.marginTop = '3%';
