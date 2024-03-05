@@ -267,10 +267,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton2seccion1borde = document.createElement('button');
     boton2seccion1borde.appendChild(boton2seccion1);
     boton2seccion1borde.style.width= '331px';
-    boton2seccion1borde.style.height = '54px'; 
+    boton2seccion1borde.style.height = '58px';  //54
     boton2seccion1borde.style.position = 'fixed';
     boton2seccion1borde.style.right = '23.3%';
-    boton2seccion1borde.style.top = '60.8%';
+    boton2seccion1borde.style.top = '62.8%'; //60.8
     boton2seccion1borde.style.borderRadius = '12px';
     boton2seccion1borde.style.backgroundColor = '#CECECE';
     boton2seccion1borde.style.border = 'none';
