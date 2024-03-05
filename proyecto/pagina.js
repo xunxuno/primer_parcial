@@ -249,6 +249,35 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1borde.style.backgroundColor = '#61B800';
     boton1seccion1borde.style.border = 'none';
 
+    // botn 2 de la seccion 1
+    var boton2seccion1 = document.createElement('button');
+    boton2seccion1.style.width= '331px';
+    boton2seccion1.style.height = '54px';
+    boton2seccion1.style.position = 'fixed';
+    boton2seccion1.style.right = '23.3%';
+    boton2seccion1.style.top = '60%';
+    boton2seccion1.style.borderRadius = '12px';
+    boton2seccion1.textContent = 'EMPIEZA AHORA';
+    boton2seccion1.style.fontSize = '15px';
+    boton2seccion1.style.fontWeight = "bolder";
+    boton2seccion1.style.color = '#FFFFFF';
+    boton2seccion1.style.backgroundColor = '#58cc02';
+    boton2seccion1.style.border = 'none';
+    //borde de bt2
+    var boton2seccion1borde = document.createElement('button');
+    boton2seccion1borde.appendChild(boton2seccion1);
+    boton2seccion1borde.style.width= '331px';
+    boton2seccion1borde.style.height = '54px'; 
+    boton2seccion1borde.style.position = 'fixed';
+    boton2seccion1borde.style.right = '23.3%';
+    boton2seccion1borde.style.top = '60.8%';
+    boton2seccion1borde.style.borderRadius = '12px';
+    boton2seccion1borde.style.backgroundColor = '#61B800';
+    boton2seccion1borde.style.border = 'none';
+
+
+
+
 
     // Añadir el nodo de texto al div
     divPrimerTexto.appendChild(texto1);
@@ -258,6 +287,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // añadir primer boton
     texto2.parentNode.insertBefore(boton1seccion1borde, texto2.nextSibling);
+    //añadir segundo boton
+    boton1seccion1borde.parentNode.insertBefore(boton2seccion1borde, boton1seccion1borde.nextSibling);
 
 
     
