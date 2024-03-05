@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.width='500px';
     texto1.style.height='100px';
     texto1.textContent='¡La forma divertida, efectiva y';
-    texto1.style.fontSize = '40px';
+    texto1.style.fontSize = '35px';
     texto1.style.position = 'fixed';
     texto1.style.right = '13.5%'; //20.4
 
