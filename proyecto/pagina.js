@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var texto1 = document.createElement('div');
     texto1.style.backgroundColor = 'red';
-    texto1.style.width='410px';
+    texto1.style.width='408px';
     texto1.style.height='100px';
     texto1.textContent='¡La forma divertida, efectiva y';
     texto1.style.fontSize = '35px';
