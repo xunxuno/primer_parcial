@@ -290,6 +290,14 @@ document.addEventListener('DOMContentLoaded', function() {
         boton2seccion1.style.backgroundColor = '#FFFFFF';
     });
 
+    ////////
+
+    //imagen primer texto
+    var imgtexto1 = new Image();
+    imgtexto1.src= 'src/imgtexto1.svg';
+    //añadir imagen
+    divPrimerTexto.appendChild(imgtexto1);
+
 
 
 
