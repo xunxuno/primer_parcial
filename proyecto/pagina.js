@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.width= '300px';
     boton1seccion1.style.height = '50px'; 
     boton1seccion1.style.position = 'fixed';
-    boton1seccion1.style.right = '35%';
+    boton1seccion1.style.right = '25%';
     boton1seccion1.style.top = '50%';
 
 
