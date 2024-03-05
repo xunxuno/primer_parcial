@@ -549,7 +549,6 @@ document.addEventListener('DOMContentLoaded', function() {
     textocolor.style.fontSize = '70px';
     textocolor.style.fontWeight = "bolder";
     textocolor.style.color = "#042C60";
-    textocolor.style.position = 'relative';
     textocolor.style.marginTop = '20px';
 
 
