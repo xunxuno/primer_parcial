@@ -218,6 +218,8 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
     texto2.style.top = '38%';
+    texto2.style.lineHeight = '5px';
+    texto2.style.letterSpacing = '0.8px';
 
 
     // Añadir el nodo de texto al div
