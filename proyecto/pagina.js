@@ -321,7 +321,8 @@ document.addEventListener('DOMContentLoaded', function() {
     nav2.style.width = '100%';
     nav2.style.height = '82px';
     nav2.style.padding = '0';
-
+    nav2.style.paddingLeft = '0';
+    nav2.style.paddingRight = '0';
 
     // segunda seccion ////////////////////
 
