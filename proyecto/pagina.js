@@ -199,14 +199,14 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrimerTexto.style.marginTop = '11.3%';
 
     var texto1 = document.createElement('div');
-    //texto1.style.backgroundColor = 'red';
+    texto1.style.backgroundColor = 'red';
     texto1.style.width='420px';
     texto1.style.height='100px';
     texto1.textContent='¡La forma divertida, efectiva y';
     texto1.style.fontSize = '29.5px';
     texto1.style.position = 'static';
     texto1.style.right = '20.4%'; //20.4
-    texto1.style.top = '33.3%';
+    texto1.style.top = '33.3%'; 
     texto1.style.color = '#4B4B4B';
     texto1.style.fontWeight = "bolder";
 
