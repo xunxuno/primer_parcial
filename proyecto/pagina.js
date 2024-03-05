@@ -197,7 +197,6 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrimerTexto.style.height = '400px';
     divPrimerTexto.style.marginLeft = '20.8%';
     divPrimerTexto.style.marginTop = '11.3%';
-    divPrimerTexto.style.position = 'flex';
 
     var texto1 = document.createElement('div');
     //texto1.style.backgroundColor = 'red';
@@ -205,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.height='100px';
     texto1.textContent='¡La forma divertida, efectiva y';
     texto1.style.fontSize = '29.5px';
-    texto1.style.position = 'fixed';
+    //texto1.style.position = 'fixed';
     texto1.style.right = '20.4%'; //20.4
     texto1.style.top = '33.3%';
     texto1.style.color = '#4B4B4B';
@@ -218,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.height='100px';
     texto2.textContent='gratis de aprender un idioma!';
     texto2.style.fontSize = '29.5px';
-    texto2.style.position = 'fixed';
+    //texto2.style.position = 'fixed';
     texto2.style.right = '20.4%';
     texto2.style.top = '39%';
     texto2.style.color = '#4B4B4B';
@@ -228,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var boton1seccion1 = document.createElement('button');
     boton1seccion1.style.width= '331px';
     boton1seccion1.style.height = '54px';
-    boton1seccion1.style.position = 'fixed';
+    //boton1seccion1.style.position = 'fixed';
     boton1seccion1.style.right = '23.3%';
     boton1seccion1.style.top = '50%';
     boton1seccion1.style.borderRadius = '12px';
@@ -243,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1borde.appendChild(boton1seccion1);
     boton1seccion1borde.style.width= '331px';
     boton1seccion1borde.style.height = '54px'; 
-    boton1seccion1borde.style.position = 'fixed';
+    //boton1seccion1borde.style.position = 'fixed';
     boton1seccion1borde.style.right = '23.3%';
     boton1seccion1borde.style.top = '50.8%';
     boton1seccion1borde.style.borderRadius = '12px';
