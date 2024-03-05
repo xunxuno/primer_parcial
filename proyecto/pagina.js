@@ -231,6 +231,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1.style.right = '23.3%';
     boton1seccion1.style.top = '50%';
     boton1seccion1.style.borderRadius = '10px';
+    boton1seccion1.textContent = 'EMPIEZA AHORA';
 
 
     // Añadir el nodo de texto al div
