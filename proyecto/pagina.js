@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1borde.style.top = '51%';
     boton1seccion1borde.style.borderRadius = '12px';
     boton1seccion1borde.style.backgroundColor = '#61B800';
-    boton1seccion1borde.style.borderColor = '#61B800';
+    boton1seccion1borde.style.border = 'none';
 
 
     // Añadir el nodo de texto al div
