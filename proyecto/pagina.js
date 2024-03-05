@@ -420,6 +420,11 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto2_2.src = 'src/imagen3.svg';
     imgtexto2_2.style.width = '600px'; // Ajusta el valor según tus necesidades
     imgtexto2_2.style.height = 'auto';
+    imgtexto2_2.style.left = '50%';
+    imgtexto2_2.style.padding = '0';
+    imgtexto2_2.style.float = 'right';
+    imgtexto2_2.style.marginTop = '-500px';
+    imgtexto2_2.style.marginLeft = '-100px';
 
     divtexto2s2.appendChild(imgtexto2_2);
 
