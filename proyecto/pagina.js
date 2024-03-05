@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var text1s2 = document.createElement('div');
     divtexto1s2.appendChild(text1s2);
     text1s2.style.backgroundColor = 'yelllow';
-    text1s2.style.width = '400px';
+    text1s2.style.width = '600px';
     text1s2.style.height = '300px';
     text1s2.textContent = 'divertido, efectivo y gratis';
     text1s2.style.color = 'white';
