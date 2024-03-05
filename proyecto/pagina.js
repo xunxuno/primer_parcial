@@ -431,6 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // cuarta seccion /////////////////////////////
 
+    // Crear el div con el formato invertido
     var divtexto3s2 = document.createElement('div');
     divSeccion2.appendChild(divtexto3s2);
 
@@ -441,20 +442,22 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto3s2.style.marginTop = '10%';
     divtexto3s2.style.top = '29.5%';
 
+    // Crear el primer texto
     var text1s2_3 = document.createElement('div');
     divtexto3s2.appendChild(text1s2_3);
     text1s2_3.style.width = '600px';
     text1s2_3.style.height = '300px';
     text1s2_3.textContent = 'respaldado por la ciencia';
-    text1s2_3.style.fontWeight = "bolder";
+    text1s2_3.style.fontWeight = 'bolder';
     text1s2_3.style.color = '#58cc02';
     text1s2_3.style.fontSize = '55px';
     text1s2_3.style.marginTop = '10%';
     text1s2_3.style.position = 'relative';
     text1s2_3.style.fontFamily = 'feather, sans-serif';
-    text1s2_3.style.float = 'right';
-    text1s2_3.style.marginRight = '20px';
+    text1s2_3.style.float = 'left';  // Flotar el texto a la izquierda
+    text1s2_3.style.marginRight = '20px';  // Ajustar la separación entre el texto y la imagen
 
+    // Crear el segundo texto
     var text2s2_3 = document.createElement('div');
     text1s2_3.appendChild(text2s2_3);
     text2s2_3.style.width = '520px';
@@ -465,6 +468,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text2s2_3.style.color = '#777777';
     text2s2_3.style.marginTop = '3%';
 
+    // Crear la imagen
     var imgtexto2_3 = new Image();
     imgtexto2_3.src = 'src/imagen3.svg';
     imgtexto2_3.style.width = '550px';
@@ -474,6 +478,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto2_3.style.marginRight = '20px';
 
     divtexto3s2.appendChild(imgtexto2_3);
+
 
 
 
