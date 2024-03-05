@@ -248,6 +248,16 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1seccion1borde.style.borderRadius = '12px';
     boton1seccion1borde.style.backgroundColor = '#61B800';
     boton1seccion1borde.style.border = 'none';
+    // funcion del boton1
+    boton1seccion1.addEventListener("mouseover", function() {
+        boton1seccion1.style.backgroundColor = '#61E002';
+        boton1seccion1borde.style.backgroundColor = '#61B800';
+    });
+    boton1seccion1.addEventListener("mouseleave", function() {
+        boton1seccion1.style.backgroundColor = '#58cc02';
+        boton1seccion1borde.style.backgroundColor = '#61B800';
+    });
+
 
     // botn 2 de la seccion 1
     var boton2seccion1 = document.createElement('button');
