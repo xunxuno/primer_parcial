@@ -479,6 +479,61 @@ document.addEventListener('DOMContentLoaded', function() {
 
     divtexto3s2.appendChild(imgtexto2_3);
 
+    //seccion 5 ///////////
+
+    // Crear un nuevo div debajo con el formato inicial
+    var divSeccionNuevo = document.createElement('div');
+    divtexto3s2.parentNode.insertBefore(divSeccionNuevo, divtexto3s2.nextSibling);
+    divSeccionNuevo.style.width = '100%';
+    divSeccionNuevo.style.height = '700px';
+    divSeccionNuevo.style.padding = '0';
+
+    var divtextoNuevo = document.createElement('div');
+    divSeccionNuevo.appendChild(divtextoNuevo);
+
+    divtextoNuevo.style.width = '1010px';
+    divtextoNuevo.style.height = '370px';
+    divtextoNuevo.style.position = 'relative';
+    divtextoNuevo.style.marginLeft = '17.2%';
+    divtextoNuevo.style.top = '29.5%';
+
+    var text1Nuevo = document.createElement('div');
+    divtextoNuevo.appendChild(text1Nuevo);
+    text1Nuevo.style.width = '600px';
+    text1Nuevo.style.height = '300px';
+    text1Nuevo.textContent = 'Texto del nuevo div';
+    text1Nuevo.style.fontWeight = 'bolder';
+    text1Nuevo.style.color = '#58cc02';
+    text1Nuevo.style.fontSize = '55px';
+    text1Nuevo.style.marginTop = '10%';
+    text1Nuevo.style.position = 'relative';
+    text1Nuevo.style.fontFamily = 'feather, sans-serif';
+
+    var text2Nuevo = document.createElement('div');
+    text1Nuevo.appendChild(text2Nuevo);
+    text2Nuevo.style.width = '540px';
+    text2Nuevo.style.height = '200px';
+    text2Nuevo.style.lineHeight = '20px';
+    text2Nuevo.textContent = 'Descripción del nuevo div. Puedes ajustar el contenido según tus necesidades.';
+    text2Nuevo.style.fontSize = '17px';
+    text2Nuevo.style.color = '#777777';
+    text2Nuevo.style.marginTop = '3%';
+
+    var imgNuevo = new Image();
+    imgNuevo.src = 'src/nueva_imagen.svg';
+    imgNuevo.style.width = '460px';
+    imgNuevo.style.height = '100%';
+    imgNuevo.style.right = '50%';
+    imgNuevo.style.padding = '0';
+    imgNuevo.style.float = 'right';
+    imgNuevo.style.marginTop = '-500px';
+    imgNuevo.style.marginRight = '-100px';
+
+    divtextoNuevo.appendChild(imgNuevo);
+
+
+
+
 
 
 
