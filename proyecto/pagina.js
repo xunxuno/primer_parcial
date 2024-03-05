@@ -223,12 +223,20 @@ document.addEventListener('DOMContentLoaded', function() {
     texto2.style.color = '#4B4B4B';
     texto2.style.fontWeight = "bolder";
 
+    // botones de seccion1
+    var boton1seccion1 = document.createElement('button');
+    boton1seccion1.style.width= '300px';
+    boton1seccion1.style.height = '50px'; 
+
 
     // Añadir el nodo de texto al div
     divPrimerTexto.appendChild(texto1);
 
     // añadir el texto 2
     texto1.parentNode.insertBefore(texto2, texto1.nextSibling);
+
+    // añadir primer boton
+    texto2.parentNode.insertBefore(boton1seccion1, texto2.nextSibling);
 
 
     
