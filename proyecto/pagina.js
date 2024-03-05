@@ -546,7 +546,7 @@ document.addEventListener('DOMContentLoaded', function() {
     textocolor.style.textAlign = 'center';
     textocolor.style.width = '300px';
     textocolor.style.height = 'auto';
-    textocolor.style.fontSize = '30px':
+    textocolor.style.fontSize = '30px';
 
 
 
