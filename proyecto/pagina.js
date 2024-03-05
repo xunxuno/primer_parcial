@@ -302,10 +302,6 @@ document.addEventListener('DOMContentLoaded', function() {
     //añadir imagen
     divPrimerTexto.appendChild(imgtexto1);
 
-
-
-
-
     // Añadir el nodo de texto al div
     divPrimerTexto.appendChild(texto1);
 
@@ -319,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //nav 2
     var nav2 = document.createElement('div');
-    divPrimerTexto.parentNode.insertBefore(divSeccion1, divPrimerTexto.nextSibling);
+    divPrimerTexto.parentNode.insertBefore(nav2, divPrimerTexto.nextSibling);
     nav2.style.backgroundColor = 'red';
     nav2.style.top = '50%';
     nav2.style.width = '100%';
