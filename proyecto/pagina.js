@@ -577,7 +577,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imagen2.src = 'src/superboton.PNG';
     imagen2.style.height = '100px';
     imagen2.style.width = 'auto';
-    imagen2.style.marginLeft = '60%';
+    imagen2.style.marginLeft = '55%';
 
 
 
