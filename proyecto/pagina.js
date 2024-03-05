@@ -562,7 +562,7 @@ document.addEventListener('DOMContentLoaded', function() {
     superdiv.style.backgroundColor = '#100F3E';
     // Crear el elemento de imagen
     var imagen = document.createElement('img');
-    imagen.style.height = '560px';
+    imagen.style.height = '540px';
     imagen.style.width = 'auto';
     imagen.style.marginLeft = '0%';
     imagen.style.marginTop = '5%';
