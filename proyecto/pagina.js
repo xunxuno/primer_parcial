@@ -208,9 +208,23 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.right = '20.4%'; //20.4
     texto1.style.top = '33.3%';
 
+    // texto 2
+    var texto2 = document.createElement('div');
+    texto2.style.backgroundColor = 'yellow';
+    texto2.style.width='415px';
+    texto2.style.height='100px';
+    texto2.textContent='¡La forma divertida, efectiva y';
+    texto2.style.fontSize = '31px';
+    texto2.style.position = 'fixed';
+    texto2.style.right = '20.4%';
+    texto2.style.top = '50%';
+
 
     // Añadir el nodo de texto al div
     divPrimerTexto.appendChild(texto1);
+
+    // añadir el texto 2
+    texto1.parentNode.insertBefore(texto2, texto1.nextSibling);
 
 
     
