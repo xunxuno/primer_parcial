@@ -564,7 +564,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var imagen = document.createElement('img');
     imagen.style.height = '570px';
     imagen.style.width = 'auto';
-    imagen.style.marginLeft = '15%';
+    imagen.style.marginLeft = '5%';
+    imagen.style.marginTop = '5%';
 
     // Establecer la ruta de la imagen
     imagen.src = 'src/imagensuper.png';
