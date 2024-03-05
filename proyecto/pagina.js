@@ -359,6 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
     text1s2.appendChild(text2s2);
     text2s2.style.width = '540px';
     text2s2.style.height = '200px';
+    text2s2.style.lineHeight = '20px';
     text2s2.textContent = 'Aprender con Duolingo es divertido y los estudios demuestran que funciona. ¡En nuestras lecciones cortas ganarás puntos y habilitarás nuevas unidades al mismo tiempo que desarrollas tus habilidades de comunicación en la vida real!';
     text2s2.style.fontSize = '17px';
     text2s2.style.color = '#777777';
