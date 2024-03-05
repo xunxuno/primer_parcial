@@ -260,8 +260,8 @@ document.addEventListener('DOMContentLoaded', function() {
     boton2seccion1.textContent = 'EMPIEZA AHORA';
     boton2seccion1.style.fontSize = '15px';
     boton2seccion1.style.fontWeight = "bolder";
-    boton2seccion1.style.color = '#FFFFFF';
-    boton2seccion1.style.backgroundColor = '#58cc02';
+    boton2seccion1.style.color = '#199EDD';
+    boton2seccion1.style.backgroundColor = '#FFFFFF';
     boton2seccion1.style.border = 'none';
     //borde de bt2
     var boton2seccion1borde = document.createElement('button');
