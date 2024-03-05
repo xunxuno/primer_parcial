@@ -203,12 +203,8 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.height='100px';
     texto1.textContent='¡La forma divertida, efectiva y';
 
-    // texto 
-    var textoNodo = document.createTextNode('¡La forma divertida, efectiva y\n');
-    var textoNodo2 = document.createTextNode(' gratis de aprender un idioma!');
     // Añadir el nodo de texto al div
-    divPrimerTexto.appendChild(textoNodo);
-    divPrimerTexto.appendChild(textoNodo2);
+    divPrimerTexto.appendChild(texto1);
 
 
     
