@@ -488,7 +488,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divTexto4s2.style.height = '370px';
     divTexto4s2.style.position = 'relative';
     divTexto4s2.style.marginLeft = '13.5%';
-    divTexto4s2.style.marginTop = '10%';
+    divTexto4s2.style.marginTop = '15%';
     divTexto4s2.style.top = '29.5%';
 
     // Crear la imagen del segundo div
