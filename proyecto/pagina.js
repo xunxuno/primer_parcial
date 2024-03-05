@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imgtexto2.style.right = '50%';
     imgtexto2.style.padding = '0';
     imgtexto2.style.float = 'right';
-    imgtexto2.style.marginTop = '-300px';
+    imgtexto2.style.marginTop = '-400px';
     //añadir imagen
     divtexto1s2.appendChild(imgtexto2)
     
