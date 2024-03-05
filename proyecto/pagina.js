@@ -349,8 +349,9 @@ document.addEventListener('DOMContentLoaded', function() {
     divtexto1s2.appendChild(text1s2);
     text1s2.style.backgroundColor = 'yelllow';
     text1s2.style.width = '200px';
-    text1s2.style.height = '70px';
+    text1s2.style.height = '100px';
     text1s2.textContent = 'holaaa';
+    text1s2.style.fontSize = '20px';
     
     
 
