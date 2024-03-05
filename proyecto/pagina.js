@@ -203,6 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
     texto1.style.width='420px';
     texto1.style.height='100px';
     texto1.style.marginLeft = '50%';
+    texto1.style.marginTop = '20%';
     texto1.textContent='¡La forma divertida, efectiva y';
     texto1.style.fontSize = '29.5px';
     texto1.style.position = 'static';
