@@ -560,7 +560,7 @@ document.addEventListener('DOMContentLoaded', function() {
     superdiv.style.backgroundColor = '#100F3E';
     // Crear el elemento de imagen
     var imagen = document.createElement('img');
-    imagen.style.height = '200px';
+    imagen.style.height = '500px';
     imagen.style.width = 'auto';
 
     // Establecer la ruta de la imagen
