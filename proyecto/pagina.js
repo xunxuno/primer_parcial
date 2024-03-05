@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var divPrimerTexto = document.createElement('div');
     nuevoDiv.parentNode.insertBefore(divPrimerTexto, nuevoDiv.nextSibling);
     divPrimerTexto.style.backgroundColor = 'yellow';
-    divPrimerTexto.style.width = '850px';
+    divPrimerTexto.style.width = '950px'; //850
     divPrimerTexto.style.height = '400px';
     divPrimerTexto.style.marginLeft = '24%';
     divPrimerTexto.style.left = '10%';
