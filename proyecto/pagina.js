@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Crear la segunda imagen con formato invertido
     var imgtexto2_2 = new Image();
     imgtexto2_2.src = 'src/imagen3.svg';
-    imgtexto2_2.style.width = '500px'; // Ajusta el valor según tus necesidades
+    imgtexto2_2.style.width = '550px'; // Ajusta el valor según tus necesidades
     imgtexto2_2.style.height = 'auto';
     imgtexto2_2.style.left = '50%';
     imgtexto2_2.style.padding = '0';
