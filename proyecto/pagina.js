@@ -547,6 +547,8 @@ document.addEventListener('DOMContentLoaded', function() {
     textocolor.style.width = '600px';
     textocolor.style.height = 'auto';
     textocolor.style.fontSize = '70px';
+    textocolor.style.fontWeight = "bolder";
+    textocolor.style.color = "#042C60";
 
 
 
